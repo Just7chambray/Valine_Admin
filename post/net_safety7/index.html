@@ -1,196 +1,185 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="robots" content="all,follow">
-<meta name="googlebot" content="index,follow,snippet,archive">
-<title>网络安全（七） | Jc&#39;s Tiny Blog</title>
-<link rel="shortcut icon" href="https://Just7chambray.github.io/favicon.ico?v=1581346935042">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<link rel="stylesheet" href="https://Just7chambray.github.io/styles/main.css" type='text/css' media='all'>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<title>Jc&#39;s Tiny Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<meta name="description" content="温故而知新"/>
+<meta name="keywords" content="温故而知新"/>
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="https://Just7chambray.github.io/favicon.ico">
+
+<link rel="stylesheet" href="https://Just7chambray.github.io/styles/main.css">
+
+<!-- Modernizr JS -->
+<script src="https://Just7chambray.github.io/media/scripts/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+<scripts src="https://Just7chambray.github.io/media/scripts/respond.min.js"></scripts>
+<![endif]-->
+
+<!-- Comment -->
+
+    
+        <link href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css" rel="stylesheet">
+    
+
+    
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155298468-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-155298468-1');
-</script>
+<!-- katex -->
+<!--<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet">-->
+
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+
 
 
 </head>
-<body class="home blog ct-body standard">
-<div id="overflow-container" class="overflow-container">
-  <a class="skip-content" href="#main">Skip to content</a>
-  <header id="site-header" class="site-header" role="banner">
-    <div class='top-navigation top-navigation-important'>
-        <div class='container'>
-            <div id="menu-secondary" class="menu-container menu-secondary" role="navigation">
-                <button id="toggle-secondary-navigation" class="toggle-secondary-navigation"><i class="fa fa-plus"></i></button>
-                <div class="menu">
-                    <ul id="menu-secondary-items" class="menu-secondary-items">
-                        
-                        
-                            
-                        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
-                            <a href="https://Just7chambray.github.io/tag/WuIcMhG1C">生活</a>
-                        </li>
-                            
-                        
-                            
-                        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
-                            <a href="https://Just7chambray.github.io/tag/net_safety">网络安全</a>
-                        </li>
-                            
-                        
-                            
-                        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
-                            <a href="https://Just7chambray.github.io/tag/Ymo0I2cUE">Kindle</a>
-                        </li>
-                            
-                        
-                            
-                        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
-                            <a href="https://Just7chambray.github.io/tag/gridea">Gridea</a>
-                        </li>
-                            
-                        
-                    </ul>
-                </div>
-            </div>
-            <ul class="social-media-icons">
+<body>
+    <div id="fh5co-offcanvas">
+    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
+        <span><i class="icon-cross3"></i> <span>Close</span></span>
+    </a>
+    <div class="fh5co-bio">
+        <figure>
+            <img src="https://Just7chambray.github.io/images/avatar.png" alt="Jc&#39;s Tiny Blog"
+                 class="img-responsive">
+        </figure>
+        <a href="https://Just7chambray.github.io/post/about/"><h3 class="heading">ABOUT ME</h3></a>
+        <h2>Jc&#39;s Tiny Blog</h2>
+        <p>温故而知新</p>
+        <ul class="fh5co-social">
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="fh5co-menu">
+
+        <!-- 标签 -->
+        <div class="fh5co-box">
+            <a href="https://Just7chambray.github.io/tags/"><h3 class="heading">👉标签</h3></a>
+            <ul>
                 
-                    
-                        <li>
-                            <a href="https://github.com/Just7chambray" data-animate-hover="pulse" class="github" target="_blank">
-                                <i class="fab fa-github" title="github"></i>
-                                <span class="screen-reader-text">github</span>
-                            </a>
-                        </li>
-                    
+                    <li><a href="https://Just7chambray.github.io/tag/WuIcMhG1C">生活</a></li>
                 
-                    
+                    <li><a href="https://Just7chambray.github.io/tag/net_safety">网络安全</a></li>
                 
-                    
-                        <li>
-                            <a href="https://weibo.com/p/1005055188670522/home?from=page_100505&amp;mod=TAB&amp;is_all=1#place" data-animate-hover="pulse" class="weibo" target="_blank">
-                                <i class="fab fa-weibo" title="weibo"></i>
-                                <span class="screen-reader-text">weibo</span>
-                            </a>
-                        </li>
-                    
+                    <li><a href="https://Just7chambray.github.io/tag/Ymo0I2cUE">Kindle</a></li>
                 
-                    
-                
-                    
-                
-                    
-                
-                    
-                        <li>
-                            <a href="1149855877" data-animate-hover="pulse" class="qq" target="_blank">
-                                <i class="fab fa-qq" title="qq"></i>
-                                <span class="screen-reader-text">qq</span>
-                            </a>
-                        </li>
-                    
-                
-                    
-                        <li>
-                            <a href="https://just7chambray.github.io/atom.xml" data-animate-hover="pulse" class="rss" target="_blank">
-                                <i class="fa fa-rss" title="rss"></i>
-                                <span class="screen-reader-text">rss</span>
-                            </a>
-                        </li>
-                    
+                    <li><a href="https://Just7chambray.github.io/tag/gridea">Gridea</a></li>
                 
             </ul>
         </div>
     </div>
+</div>
 
-    <div class="container">
-        <div id="title-info" class="title-info">
-            <div id='site-title' class='site-title'>
-                <a href="https://Just7chambray.github.io">  Jc&#39;s Tiny Blog </a>
-            </div>
-        </div>
-        <button id="toggle-navigation" class="toggle-navigation">
-            <i class="fa fa-bars"></i>
-        </button>
-        <div id="menu-primary-tracks" class="menu-primary-tracks"></div>
-        <div id="menu-primary" class="menu-container menu-primary" role="navigation">
-            <p class="site-description">温故而知新</p>
-            <div class="menu">
-                <ul id="menu-primary-items" class="menu-primary-items">
-                     
+<header id="fh5co-header">
+    <div class="container-fluid">
+        <div class="row">
+            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+            <ul class="fh5co-social">
+                
+                    <li>
+                        <a href="/"
                         
-                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
-                                <a href="/">首页</a>
-                            </li>
+                        >
+                            首页
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives"
                         
-                    
+                        >
+                            归档
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags"
                         
-                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
-                                <a href="/archives">归档</a>
-                            </li>
+                        >
+                            标签
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://Just7chambray.github.io/post/about"
                         
-                    
-                        
-                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
-                                <a href="/tags">标签</a>
-                            </li>
-                        
-                    
-                        
-                            <li id="menu-item" class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item'>
-                                <a href="http://Just7chambray.github.io/post/about">关于</a>
-                            </li>
-                        
-                    
-                </ul>
+                        >
+                            关于
+                        </a>
+                    </li>
+                
+            </ul>
+            <div class="col-lg-12 col-md-12 text-center">
+                <h1 id="fh5co-logo">
+                    <a href="https://Just7chambray.github.io">Jc&#39;s Tiny Blog </a>
+                </h1>
             </div>
         </div>
     </div>
-
-
 </header>
 
 
-  <div id="main" class="main" role="main">
-    <div id="loop-container" class="loop-container">
-      <div class="post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-standard-2 tag-tagalicious tag-travel entry full-without-featured odd excerpt-1">
-        
-          <div class='featured-image lazy lazy-bg-image' data-background="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/net_safety/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E7%AC%AC%E4%B8%83%E7%AB%A0%20Internet%E5%AE%89%E5%85%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E4%B9%8B%E4%BA%8C.png">
-          </div>
-        
+    <!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
+    <!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
 
-        <div class="entry-meta">
-          <span class="date">· 2019-12-31 ·</span> <span> / </span>
-          <span class="author">
-            <a href="https://Just7chambray.github.io" title="" rel="author"> Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></a>
-          </span>
-          
-            <span class="category">
-                    <span> / </span>
-                    <a href="https://Just7chambray.github.io/tag/net_safety">网络安全</a>
-                </span>
-          
-        </div>
-        <div class='entry-header'>
-          <h1 class='entry-title'>网络安全（七）</h1>
-        </div>
-        <div class="entry-container">
-          <div class="entry-content">
-            <article>
-              <p>本章要点：<br>
+    <!-- 等gridea出自定义页面功能再优化一下 -->
+    
+        <div class="container-fluid">
+    <div class="row fh5co-post-entry single-entry">
+        <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+            <figure class="animate-box">
+                
+                    <img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/net_safety/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E7%AC%AC%E4%B8%83%E7%AB%A0%20Internet%E5%AE%89%E5%85%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E4%B9%8B%E4%BA%8C.png" alt="网络安全（七）" class="img-responsive">
+                
+            </figure>
+            <span class="fh5co-meta animate-box">
+                
+                    <div class="tag-container">
+                        
+                            <a href="https://Just7chambray.github.io/tag/net_safety" class="tag">网络安全, </a>
+                        
+                    </div>
+                
+            </span>
+            <h2 class="fh5co-article-title animate-box">网络安全（七）</h2>
+            <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
+                <li>2019-12-31</li>
+                <li>8292字</li>
+                <li>29 min read</li>
+            </ol>
+
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+                <div class="row">
+                    <div class="col-md-12 animate-box post-content">
+                        <p> <p>本章要点：<br>
 传输层风险及缓解方法；攻击TCP和UDP的方法及缓解方法；DNS风险及缓解方法；SMTP邮件风险及缓解方法；HTTP风险及缓解方法。</p>
 <!-- more -->
 <figure data-type="image" tabindex="1"><img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/net_safety/%E7%AC%AC%E4%B8%83%E7%AB%A0%20Internet%E5%AE%89%E5%85%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E4%B9%8B%E4%BA%8C.png" alt="第七章 Internet安全体系结构之二 思维导图" loading="lazy"></figure>
@@ -994,195 +983,234 @@ Web服务器有images和icons目录。在原来的URL拼接上icons后，即使�
 </ul>
 </li>
 </ul>
+ </p>
+                    </div>
+                </div>
 
-            </article>
-          </div>
-          <div class='entry-meta-bottom'>
-            <div class="entry-categories">
-              <p>
-                <span>Categories</span>
-                
-                  
-                    
-                  <a href="https://Just7chambray.github.io/tag/WuIcMhG1C" title="View all posts in 生活">生活</a>
-                    
-                    
-                    
-                  <a href="https://Just7chambray.github.io/tag/net_safety" title="View all posts in 网络安全">网络安全</a>
-                    
-                    
-                    
-                  <a href="https://Just7chambray.github.io/tag/Ymo0I2cUE" title="View all posts in Kindle">Kindle</a>
-                    
-                    
-                    
-                  <a href="https://Just7chambray.github.io/tag/gridea" title="View all posts in Gridea">Gridea</a>
-                    
-                    
-              </p>
-            </div>
-            <div class="entry-tags">
-              <p><span>Tags</span>
-              </p>
-            </div>
-          </div>
-          <div class="author-meta">
-            <div class="author">
-              <img alt='' src="https://Just7chambray.github.io/images/avatar.png?v=1581346935042" class='avatar avatar-72 photo' height='72' width='72'>
-              <span>WRITTEN BY: &nbsp;&nbsp;&nbsp;<a href='https://Just7chambray.github.io'></a> </span>
-            </div>
-            <div class="bio">
-              <p></p>
-              
-                
-                  <a class="github" target="_blank"
-                     href="https://github.com/Just7chambray">
-                    <i class="fab fa-github" title="github"></i>
-                  </a>
-                
-              
-                
-              
-                
-                  <a class="weibo" target="_blank"
-                     href="https://weibo.com/p/1005055188670522/home?from=page_100505&amp;mod=TAB&amp;is_all=1#place">
-                    <i class="fab fa-weibo" title="weibo"></i>
-                  </a>
-                
-              
-                
-              
-                
-              
-                
-              
-                
-                  <a class="qq" target="_blank"
-                     href="1149855877">
-                    <i class="fab fa-qq" title="qq"></i>
-                  </a>
-                
-              
-                
-                  <a class="rss" target="_blank"
-                     href="https://just7chambray.github.io/atom.xml">
-                    <i class="fa fa-rss" title="rss"></i>
-                  </a>
-                
-              
-            </div>
-          </div>
-        </div>
-          
-            <nav class="navigation pagination" role="navigation">
-              <h2 class="screen-reader-text">Posts navigation</h2>
-              <div class="nav-links">
-                <a class="next page-numbers" href="https://Just7chambray.github.io/post/net_safety6">下一篇->网络安全（六）</a>
-              </div>
-            </nav>
-          
-      </div>
-      <section id="comments" class="comments">
+                <div class="row">
+                    <div class="col-md-12 animate-box">
+                        
+                            <div class="next-post">
+                                <div class="next">下一篇</div>
+                                <a href="https://Just7chambray.github.io/post/net_safety6">
+                                    <h3 class="post-title">
+                                        网络安全（六）
+                                    </h3>
+                                </a>
+                            </div>
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+    <div class="col-md-12 animate-box">
         
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+            
+                <div id="gitalk-container"></div>
+            
 
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: 'dc7464d30a12ece71bc1',
-    clientSecret: '979bbe65af1478b67f1f7c0e44d84086683a894d',
-    repo: 'Just7chambray.github.io',
-    owner: 'Just7chambray',
-    admin: ['Just7chambray'],
-    id: location.pathname,      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
+            
         
-      </section>
     </div>
-  </div>
-  <footer id="site-footer" class="site-footer" role="contentinfo">
-    <h1>
-        <a href="https://Just7chambray.github.io"> Jc&#39;s Tiny Blog </a>
-    </h1>
-    <p class="site-description">温故而知新</p>
-    <div id="menu-footer" class="menu-container menu-footer" role="navigation">
-        <div class="menu">
-            <ul id="menu-footer-items" class="menu-footer-items">
-            </ul>
-        </div>
+</div>
+
+            </div>
+
+        </article>
     </div>
-    <ul class="social-media-icons">
-        
-            
-                <li>
-                    <a href="https://github.com/Just7chambray" data-animate-hover="pulse" class="github" target="_blank">
-                        <i class="fab fa-github" title="github"></i>
-                        <span class="screen-reader-text">github</span>
-                    </a>
-                </li>
-            
-        
-            
-        
-            
-                <li>
-                    <a href="https://weibo.com/p/1005055188670522/home?from=page_100505&amp;mod=TAB&amp;is_all=1#place" data-animate-hover="pulse" class="weibo" target="_blank">
-                        <i class="fab fa-weibo" title="weibo"></i>
-                        <span class="screen-reader-text">weibo</span>
-                    </a>
-                </li>
-            
-        
-            
-        
-            
-        
-            
-        
-            
-                <li>
-                    <a href="1149855877" data-animate-hover="pulse" class="qq" target="_blank">
-                        <i class="fab fa-qq" title="qq"></i>
-                        <span class="screen-reader-text">qq</span>
-                    </a>
-                </li>
-            
-        
-            
-                <li>
-                    <a href="https://just7chambray.github.io/atom.xml" data-animate-hover="pulse" class="rss" target="_blank">
-                        <i class="fas fa-rss" title="rss"></i>
-                        <span class="screen-reader-text">rss</span>
-                    </a>
-                </li>
-            
-        
-    </ul>
-    <div class="design-credit">
-        <p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></p>
-    </div>
-</footer>
-<script>
-    hljs.initHighlightingOnLoad()
-</script>
-<script src="https://Just7chambray.github.io/media/scripts/lib/jquery.min.js"></script>
-<script src="https://Just7chambray.github.io/media/scripts/lib/jquerymigrate.js"></script>
-<script src="https://Just7chambray.github.io/media/scripts/lib/production.min.js"></script>
+</div>
+
+    
+
+    <!-- 返回顶部 -->
+    <div class="back-to-top">
+    
+        <a href="#!" id="tool-toc" class="hidden-xs hidden-sm">
+            <i class="fa fa-map"></i>
+        </a>
+        <br>
+    
+    <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
+</div>
+
+<div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
+    <ul class="markdownIt-TOC">
+<li><a href="#%E7%AC%AC%E4%B8%83%E7%AB%A0-internet%E5%AE%89%E5%85%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E4%B9%8B%E4%BA%8C">第七章 Internet安全体系结构之二</a>
+<ul>
+<li><a href="#%E4%BC%A0%E8%BE%93%E5%B1%82%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD">传输层核心功能</a>
+<ul>
+<li><a href="#%E6%8F%90%E8%A6%81">提要</a></li>
+<li><a href="#%E7%AB%AF%E5%8F%A3%E5%92%8C%E5%A5%97%E6%8E%A5%E5%AD%97">端口和套接字</a></li>
+<li><a href="#%E6%8E%92%E5%BA%8F">排序</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BC%A0%E8%BE%93%E5%B1%82%E9%A3%8E%E9%99%A9">传输层风险</a>
+<ul>
+<li><a href="#%E6%8F%90%E8%A6%81-2">提要</a></li>
+<li><a href="#%E4%BC%A0%E8%BE%93%E5%B1%82%E6%8B%A6%E6%88%AA">传输层拦截</a></li>
+<li><a href="#%E4%B8%80%E4%B8%AA%E7%AB%AF%E5%8F%A3%E5%92%8C%E5%A4%9A%E4%B8%AA%E7%AB%AF%E5%8F%A3%E6%AF%94%E8%BE%83">一个端口和多个端口比较</a></li>
+<li><a href="#%E9%9D%99%E6%80%81%E7%AB%AF%E5%8F%A3%E8%B5%8B%E5%80%BC%E5%92%8C%E5%8A%A8%E6%80%81%E7%AB%AF%E5%8F%A3%E8%B5%8B%E5%80%BC">静态端口赋值和动态端口赋值</a></li>
+<li><a href="#%E7%AB%AF%E5%8F%A3%E6%89%AB%E6%8F%8F">端口扫描</a></li>
+<li><a href="#%E4%BF%A1%E6%81%AF%E6%B3%84%E9%9C%B2">信息泄露</a></li>
+</ul>
+</li>
+<li><a href="#tcp%E4%BE%A6%E5%AF%9F">TCP侦察</a>
+<ul>
+<li><a href="#%E6%8F%90%E8%A6%81-3">提要</a></li>
+<li><a href="#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A1%86%E6%9E%B6">操作系统框架</a></li>
+<li><a href="#%E7%AB%AF%E5%8F%A3%E6%89%AB%E6%8F%8F-2">端口扫描</a></li>
+<li><a href="#%E6%97%A5%E5%BF%97">日志</a></li>
+</ul>
+</li>
+<li><a href="#tcp%E6%8B%A6%E6%88%AA">TCP拦截</a>
+<ul>
+<li><a href="#%E5%AE%9A%E4%B9%89">定义</a></li>
+<li><a href="#%E5%88%86%E7%B1%BB">分类</a></li>
+</ul>
+</li>
+<li><a href="#tcp-dos">TCP Dos</a>
+<ul>
+<li><a href="#%E6%8F%90%E8%A6%81-4">提要</a></li>
+<li><a href="#%E5%88%86%E7%B1%BB-2">分类</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BC%93%E8%A7%A3%E5%AF%B9tcp%E6%94%BB%E5%87%BB%E7%9A%84%E6%96%B9%E6%B3%95">缓解对TCP攻击的方法</a>
+<ul>
+<li><a href="#%E6%94%B9%E5%8F%98%E7%B3%BB%E7%BB%9F%E6%A1%86%E6%9E%B6">改变系统框架</a></li>
+<li><a href="#%E9%98%BB%E6%96%AD%E6%94%BB%E5%87%BB%E6%8C%87%E5%90%91">阻断攻击指向</a></li>
+<li><a href="#%E8%AF%86%E5%88%AB%E7%BD%91%E7%BB%9C%E8%AE%BE%E5%A4%87">识别网络设备</a></li>
+<li><a href="#%E7%8A%B6%E6%80%81%E5%88%86%E7%BB%84%E6%A3%80%E9%AA%8C">状态分组检验</a></li>
+<li><a href="#%E5%85%A5%E4%BE%B5%E6%A3%80%E6%B5%8B%E7%B3%BB%E7%BB%9Fids">入侵检测系统（IDS）</a></li>
+<li><a href="#%E5%85%A5%E4%BE%B5%E9%98%B2%E5%BE%A1%E7%B3%BB%E7%BB%9Fips">入侵防御系统（IPS）</a></li>
+<li><a href="#%E9%AB%98%E5%B1%82%E5%8D%8F%E8%AE%AE">高层协议</a></li>
+</ul>
+</li>
+<li><a href="#udp">UDP</a>
+<ul>
+<li><a href="#%E9%A3%8E%E9%99%A9">风险</a></li>
+</ul>
+</li>
+<li><a href="#%E5%AE%89%E5%85%A8%E5%A5%97%E6%8E%A5%E5%AD%97%E5%B1%82ssl">安全套接字层SSL</a>
+<ul>
+<li><a href="#%E7%94%B1%E4%BA%8Etcpip%E5%8D%8F%E8%AE%AE%E6%9C%AC%E8%BA%AB%E6%B2%A1%E6%9C%89%E5%8A%A0%E5%AF%86-%E8%BA%AB%E4%BB%BD%E9%89%B4%E5%88%AB%E7%AD%89%E5%AE%89%E5%85%A8%E7%89%B9%E6%80%A7%E5%9B%A0%E6%AD%A4%E8%A6%81%E5%90%91%E4%B8%8A%E5%B1%82%E6%8F%90%E4%BE%9B%E5%AE%89%E5%85%A8%E9%80%9A%E4%BF%A1%E7%9A%84%E6%9C%BA%E5%88%B6%E5%B0%B1%E5%BF%85%E9%A1%BB%E5%9C%A8tcp%E4%B9%8B%E4%B8%8A%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E5%AE%89%E5%85%A8%E9%80%9A%E4%BF%A1%E5%B1%82%E6%AC%A1">由于TCP/IP协议本身没有加密、身份鉴别等安全特性，因此要向上层提供安全通信的机制就必须在TCP之上建立一个安全通信层次</a></li>
+<li><a href="#%E4%BC%A0%E8%BE%93%E5%B1%82%E7%BD%91%E5%85%B3%E5%9C%A8%E4%B8%A4%E4%B8%AA%E9%80%9A%E4%BF%A1%E7%BB%93%E7%82%B9%E4%B9%8B%E9%97%B4%E4%BB%A3%E4%B8%BA%E4%BC%A0%E9%80%92tcp%E8%BF%9E%E6%8E%A5%E5%B9%B6%E8%BF%9B%E8%A1%8C%E6%8E%A7%E5%88%B6%E8%AF%A5%E5%B1%82%E6%AC%A1%E4%B8%80%E8%88%AC%E7%A7%B0%E4%B8%BA%E4%BC%A0%E8%BE%93%E5%B1%82%E5%AE%89%E5%85%A8">传输层网关在两个通信结点之间代为传递TCP连接并进行控制，该层次一般称为传输层安全</a></li>
+<li><a href="#%E6%9C%80%E5%B8%B8%E8%A7%81%E7%9A%84%E4%BC%A0%E8%BE%93%E5%B1%82%E5%AE%89%E5%85%A8%E6%8A%80%E6%9C%AF%E6%9C%89sslsocks%E5%92%8C%E5%AE%89%E5%85%A8rpc%E7%AD%89">最常见的传输层安全技术有SSL，SOCKS和安全RPC等</a></li>
+<li><a href="#ssl%E5%88%86%E4%B8%BA%E4%B8%A4%E5%B1%82%E4%B8%8A%E9%9D%A2%E6%98%AFssl%E5%8D%8F%E5%95%86%E5%B1%82%E5%8F%8C%E6%96%B9%E9%80%9A%E8%BF%87%E5%8D%8F%E5%95%86%E7%BA%A6%E5%AE%9A%E6%9C%89%E5%85%B3%E5%8A%A0%E5%AF%86%E7%9A%84%E7%AE%97%E6%B3%95-%E8%BF%9B%E8%A1%8C%E8%BA%AB%E4%BB%BD%E9%89%B4%E5%88%AB%E7%AD%89%E4%B8%8B%E9%9D%A2%E6%98%AFssl%E8%AE%B0%E5%BD%95%E5%B1%82%E5%AE%83%E6%8A%8A%E4%B8%8A%E5%B1%82%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%8F%E5%88%86%E6%AE%B5-%E5%8E%8B%E7%BC%A9%E5%90%8E%E5%8A%A0%E5%AF%86%E7%94%B1%E4%BC%A0%E8%BE%93%E5%B1%82%E4%BC%A0%E9%80%81%E5%87%BA%E5%8E%BB">SSL分为两层，上面是SSL协商层，双方通过协商约定有关加密的算法、进行身份鉴别等；下面是SSL记录层，它把上层的数据经分段、压缩后加密，由传输层传送出去。</a></li>
+<li><a href="#ssl%E9%87%87%E7%94%A8%E5%85%AC%E9%92%A5%E6%96%B9%E5%BC%8F%E8%BF%9B%E8%A1%8C%E8%BA%AB%E4%BB%BD%E9%89%B4%E5%88%AB%E4%BD%86%E5%A4%A7%E9%87%8F%E6%95%B0%E6%8D%AE%E4%BC%A0%E8%BE%93%E4%BB%8D%E4%BD%BF%E7%94%A8%E5%AF%B9%E7%A7%B0%E5%AF%86%E9%92%A5%E6%96%B9%E5%BC%8F-%E9%80%9A%E8%BF%87%E5%8F%8C%E6%96%B9%E5%8D%8F%E5%95%86ssl%E5%8F%AF%E6%94%AF%E6%8C%81%E5%A4%9A%E7%A7%8D%E8%BA%AB%E4%BB%BD%E9%89%B4%E5%88%AB-%E5%8A%A0%E5%AF%86%E5%92%8C%E6%A3%80%E9%AA%8C%E7%AE%97%E6%B3%95">SSL采用公钥方式进行身份鉴别，但大量数据传输仍使用对称密钥方式。通过双方协商，SSL可支持多种身份鉴别、加密和检验算法。</a></li>
+<li><a href="#%E4%BC%A0%E8%BE%93%E5%B1%82%E5%AE%89%E5%85%A8%E6%9C%BA%E5%88%B6%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9">传输层安全机制的优缺点</a></li>
+</ul>
+</li>
+<li><a href="#dns%E9%A3%8E%E9%99%A9%E5%8F%8A%E7%BC%93%E8%A7%A3%E6%96%B9%E6%B3%95">DNS风险及缓解方法</a>
+<ul>
+<li><a href="#%E7%9B%B4%E6%8E%A5%E9%A3%8E%E9%99%A9">直接风险</a></li>
+<li><a href="#%E6%8A%80%E6%9C%AF%E9%A3%8E%E9%99%A9">技术风险</a></li>
+<li><a href="#%E7%A4%BE%E4%BC%9A%E9%A3%8E%E9%99%A9">社会风险</a></li>
+<li><a href="#%E7%BC%93%E8%A7%A3%E9%A3%8E%E9%99%A9%E7%9A%84%E6%96%B9%E6%B3%95">缓解风险的方法</a></li>
+</ul>
+</li>
+<li><a href="#smtp%E9%82%AE%E4%BB%B6%E9%A3%8E%E9%99%A9">SMTP邮件风险</a>
+<ul>
+<li><a href="#%E4%BC%AA%E8%A3%85%E6%8A%A5%E5%A4%B4%E5%8F%8A%E5%9E%83%E5%9C%BE%E9%82%AE%E4%BB%B6">伪装报头及垃圾邮件</a></li>
+<li><a href="#%E4%B8%AD%E7%BB%A7%E5%92%8C%E6%8B%A6%E6%88%AA">中继和拦截</a></li>
+<li><a href="#smtp%E5%92%8Cdns">SMTP和DNS</a></li>
+<li><a href="#%E4%BD%8E%E5%B1%82%E5%8D%8F%E8%AE%AE">低层协议</a></li>
+<li><a href="#e-mail%E7%9A%84%E4%BC%A6%E7%90%86%E9%97%AE%E9%A2%98">E-mail的伦理问题</a></li>
+</ul>
+</li>
+<li><a href="#http%E9%A3%8E%E9%99%A9">HTTP风险</a>
+<ul>
+<li><a href="#url%E6%BC%8F%E6%B4%9E">URL漏洞</a></li>
+<li><a href="#%E5%B8%B8%E8%A7%81%E7%9A%84http%E9%A3%8E%E9%99%A9">常见的HTTP风险</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
 </div>
+
+
+    
+<footer id="fh5co-footer">
+  <p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></p>
+</footer>
+
+
+    <!-- jQuery -->
+<script src="https://Just7chambray.github.io/media/scripts/jquery.min.js"></script>
+<!-- img lazy load -->
+<script src="https://Just7chambray.github.io/media/scripts/jquery.lazyload.min.js"></script>
+<!-- jQuery Easing -->
+<script src="https://Just7chambray.github.io/media/scripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="https://Just7chambray.github.io/media/scripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="https://Just7chambray.github.io/media/scripts/jquery.waypoints.min.js"></script>
+<!-- Main JS -->
+<script src="https://Just7chambray.github.io/media/scripts/main.js"></script>
+<!-- Md5 Min JS -->
+<script src="https://Just7chambray.github.io/media/scripts/md5.min.js"></script>
+<!-- katex -->
+<!--<script src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>-->
+<!-- highlight -->
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
+
+
+<script type="application/javascript">
+    // 代码高亮
+    hljs.initHighlightingOnLoad();
+
+    // img 懒加载
+    $(function () {
+        $("img.lazy").lazyload({
+            effect: "fadeIn",  // 懒加载动画
+            threshold: 180  // 在图片距离屏幕180px时提前载入
+        });
+        // tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+
+        // 目录
+        $('#tool-toc').click(function () {
+            $('.post-toc').toggle();
+        });
+    });
+
+    
+        var allImg = $("img");
+        allImg.on("contextmenu", function () {
+            return false;
+        });
+        allImg.on("dragstart", function () {
+            return false;
+        });
+    
+</script>
+
+
+
+    
+        <script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+        <script>
+
+            var gitalk = new Gitalk({
+                clientID: 'dc7464d30a12ece71bc1',
+                clientSecret: '979bbe65af1478b67f1f7c0e44d84086683a894d',
+                repo: 'Just7chambray.github.io',
+                owner: 'Just7chambray',
+                admin: ['Just7chambray'],
+                id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+                distractionFreeMode: false  // Facebook-like distraction free mode
+            })
+
+            gitalk.render('gitalk-container')
+
+        </script>
+    
+
+    
+
+
+
+
 </body>
 </html>
-
