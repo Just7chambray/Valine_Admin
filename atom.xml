@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>Jc&apos;s Tiny Blog</title>
-    <updated>2020-03-10T09:07:18.861Z</updated>
+    <updated>2020-03-10T09:09:47.698Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, Jc&apos;s Tiny Blog</rights>
     <entry>
         <title type="html"><![CDATA[须臾一线吐复落]]></title>
-        <id>https://Just7chambray.github.io/post/sunrise</id>
-        <link href="https://Just7chambray.github.io/post/sunrise">
+        <id>https://Just7chambray.github.io/post/sunrise/</id>
+        <link href="https://Just7chambray.github.io/post/sunrise/">
         </link>
         <updated>2020-01-30T09:07:56.000Z</updated>
         <summary type="html"><![CDATA[<p>肝！看日出去！</p>
@@ -23,8 +23,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[网络安全（十一）]]></title>
-        <id>https://Just7chambray.github.io/post/net_safety11</id>
-        <link href="https://Just7chambray.github.io/post/net_safety11">
+        <id>https://Just7chambray.github.io/post/net_safety11/</id>
+        <link href="https://Just7chambray.github.io/post/net_safety11/">
         </link>
         <updated>2019-12-31T14:06:26.000Z</updated>
         <summary type="html"><![CDATA[<p>本章要点：<br>
@@ -36,8 +36,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[网络安全（十）]]></title>
-        <id>https://Just7chambray.github.io/post/net_safety10</id>
-        <link href="https://Just7chambray.github.io/post/net_safety10">
+        <id>https://Just7chambray.github.io/post/net_safety10/</id>
+        <link href="https://Just7chambray.github.io/post/net_safety10/">
         </link>
         <updated>2019-12-31T14:03:35.000Z</updated>
         <summary type="html"><![CDATA[<p>本章要点：<br>
@@ -49,8 +49,8 @@ IPSec的而概念、功能、体系结构；安全联盟和安全策略的概念
     </entry>
     <entry>
         <title type="html"><![CDATA[网络安全（九）]]></title>
-        <id>https://Just7chambray.github.io/post/net_safety9</id>
-        <link href="https://Just7chambray.github.io/post/net_safety9">
+        <id>https://Just7chambray.github.io/post/net_safety9/</id>
+        <link href="https://Just7chambray.github.io/post/net_safety9/">
         </link>
         <updated>2019-12-31T13:25:35.000Z</updated>
         <summary type="html"><![CDATA[<p>本章要点：<br>
@@ -62,8 +62,8 @@ VPN的基本概念和特点；VPN采用的主要技术；第二层VPN协议的�
     </entry>
     <entry>
         <title type="html"><![CDATA[网络安全（八）]]></title>
-        <id>https://Just7chambray.github.io/post/net_safety8</id>
-        <link href="https://Just7chambray.github.io/post/net_safety8">
+        <id>https://Just7chambray.github.io/post/net_safety8/</id>
+        <link href="https://Just7chambray.github.io/post/net_safety8/">
         </link>
         <updated>2019-12-31T13:19:27.000Z</updated>
         <summary type="html"><![CDATA[<p>本章要点：<br>
@@ -75,8 +75,8 @@ VPN的基本概念和特点；VPN采用的主要技术；第二层VPN协议的�
     </entry>
     <entry>
         <title type="html"><![CDATA[网络安全（七）]]></title>
-        <id>https://Just7chambray.github.io/post/net_safety7</id>
-        <link href="https://Just7chambray.github.io/post/net_safety7">
+        <id>https://Just7chambray.github.io/post/net_safety7/</id>
+        <link href="https://Just7chambray.github.io/post/net_safety7/">
         </link>
         <updated>2019-12-31T13:17:15.000Z</updated>
         <summary type="html"><![CDATA[<p>本章要点：<br>
@@ -88,8 +88,8 @@ VPN的基本概念和特点；VPN采用的主要技术；第二层VPN协议的�
     </entry>
     <entry>
         <title type="html"><![CDATA[网络安全（六）]]></title>
-        <id>https://Just7chambray.github.io/post/net_safety6</id>
-        <link href="https://Just7chambray.github.io/post/net_safety6">
+        <id>https://Just7chambray.github.io/post/net_safety6/</id>
+        <link href="https://Just7chambray.github.io/post/net_safety6/">
         </link>
         <updated>2019-12-31T12:18:59.000Z</updated>
         <summary type="html"><![CDATA[<p>本章要点：<br>
@@ -101,8 +101,8 @@ LAN的攻击类型及防御方法；无线网的风险及缓解方法；数据�
     </entry>
     <entry>
         <title type="html"><![CDATA[网络安全（五）]]></title>
-        <id>https://Just7chambray.github.io/post/net_safety5</id>
-        <link href="https://Just7chambray.github.io/post/net_safety5">
+        <id>https://Just7chambray.github.io/post/net_safety5/</id>
+        <link href="https://Just7chambray.github.io/post/net_safety5/">
         </link>
         <updated>2019-12-31T12:05:29.000Z</updated>
         <summary type="html"><![CDATA[<p>本章要点：<br>
@@ -114,8 +114,8 @@ LAN的攻击类型及防御方法；无线网的风险及缓解方法；数据�
     </entry>
     <entry>
         <title type="html"><![CDATA[网络安全（四）]]></title>
-        <id>https://Just7chambray.github.io/post/net_safety4</id>
-        <link href="https://Just7chambray.github.io/post/net_safety4">
+        <id>https://Just7chambray.github.io/post/net_safety4/</id>
+        <link href="https://Just7chambray.github.io/post/net_safety4/">
         </link>
         <updated>2019-12-25T12:37:12.000Z</updated>
         <summary type="html"><![CDATA[<p>本章要点：<br>
@@ -127,8 +127,8 @@ LAN的攻击类型及防御方法；无线网的风险及缓解方法；数据�
     </entry>
     <entry>
         <title type="html"><![CDATA[网络安全（三）]]></title>
-        <id>https://Just7chambray.github.io/post/net_safety3</id>
-        <link href="https://Just7chambray.github.io/post/net_safety3">
+        <id>https://Just7chambray.github.io/post/net_safety3/</id>
+        <link href="https://Just7chambray.github.io/post/net_safety3/">
         </link>
         <updated>2019-12-24T13:53:38.000Z</updated>
         <summary type="html"><![CDATA[<p>本章要点：<br>
