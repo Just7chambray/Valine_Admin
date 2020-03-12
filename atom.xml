@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>Jc&apos;s Tiny Blog</title>
-    <updated>2020-03-10T09:09:47.698Z</updated>
+    <updated>2020-03-12T07:30:34.465Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -10,6 +10,25 @@
     <logo>https://Just7chambray.github.io/images/avatar.png</logo>
     <icon>https://Just7chambray.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Jc&apos;s Tiny Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Win10批量删除👌]]></title>
+        <id>https://Just7chambray.github.io/post/win10_batch_deletion/</id>
+        <link href="https://Just7chambray.github.io/post/win10_batch_deletion/">
+        </link>
+        <updated>2020-03-12T06:56:49.000Z</updated>
+        <summary type="html"><![CDATA[<ol>
+<li>批量删除指定后缀文件</li>
+<li>批量删除指定大小文件</li>
+<li>批量删除字符匹配文件</li>
+</ol>
+]]></summary>
+        <content type="html"><![CDATA[<ol>
+<li>批量删除指定后缀文件</li>
+<li>批量删除指定大小文件</li>
+<li>批量删除字符匹配文件</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[须臾一线吐复落]]></title>
         <id>https://Just7chambray.github.io/post/sunrise/</id>
@@ -123,19 +142,6 @@ LAN的攻击类型及防御方法；无线网的风险及缓解方法；数据�
 ]]></summary>
         <content type="html"><![CDATA[<p>本章要点：<br>
 针对不同攻击需要的基本安全服务；机密性服务的类型及相应的机制；完整性服务的类型及相应的机制；可用性服务的类型；可审性服务的基本功能；身份鉴别的方法以及在网络环境下的身份鉴别；数字签名原理；Kerberos鉴别工作原理；公钥基础设施结构；访问控制基本原理。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[网络安全（三）]]></title>
-        <id>https://Just7chambray.github.io/post/net_safety3/</id>
-        <link href="https://Just7chambray.github.io/post/net_safety3/">
-        </link>
-        <updated>2019-12-24T13:53:38.000Z</updated>
-        <summary type="html"><![CDATA[<p>本章要点：<br>
-安全策略的功能；与网络安全有关的策略类型及其功能；与网络安全有关的各种管理程序功能；安全策略的生成、展开和有效管理</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>本章要点：<br>
-安全策略的功能；与网络安全有关的策略类型及其功能；与网络安全有关的各种管理程序功能；安全策略的生成、展开和有效管理</p>
 ]]></content>
     </entry>
 </feed>
