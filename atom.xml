@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>Techaholic</title>
-    <updated>2020-03-21T13:15:03.459Z</updated>
+    <updated>2020-03-21T13:34:13.763Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -10,19 +10,6 @@
     <logo>https://Just7chambray.github.io/images/avatar.png</logo>
     <icon>https://Just7chambray.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Techaholic</rights>
-    <entry>
-        <title type="html"><![CDATA[I'm Fine I'm just not Happy]]></title>
-        <id>https://Just7chambray.github.io/post/IfIjnh/</id>
-        <link href="https://Just7chambray.github.io/post/IfIjnh/">
-        </link>
-        <updated>2020-03-21T12:13:35.000Z</updated>
-        <summary type="html"><![CDATA[<p>我没事<br>
-只是有点不开心</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>我没事<br>
-只是有点不开心</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Win10批量删除👌]]></title>
         <id>https://Just7chambray.github.io/post/win10_batch_deletion/</id>
@@ -142,6 +129,19 @@ LAN的攻击类型及防御方法；无线网的风险及缓解方法；数据�
 ]]></summary>
         <content type="html"><![CDATA[<p>本章要点：<br>
 可信系统体系结构及其要素；网络安全的分层体系结构；OSI安全体系结构的安全服务与安全机制；ISO/IEC网络安全体系结构。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网络安全（四）]]></title>
+        <id>https://Just7chambray.github.io/post/net_safety4/</id>
+        <link href="https://Just7chambray.github.io/post/net_safety4/">
+        </link>
+        <updated>2019-12-25T12:37:12.000Z</updated>
+        <summary type="html"><![CDATA[<p>本章要点：<br>
+针对不同攻击需要的基本安全服务；机密性服务的类型及相应的机制；完整性服务的类型及相应的机制；可用性服务的类型；可审性服务的基本功能；身份鉴别的方法以及在网络环境下的身份鉴别；数字签名原理；Kerberos鉴别工作原理；公钥基础设施结构；访问控制基本原理。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本章要点：<br>
+针对不同攻击需要的基本安全服务；机密性服务的类型及相应的机制；完整性服务的类型及相应的机制；可用性服务的类型；可审性服务的基本功能；身份鉴别的方法以及在网络环境下的身份鉴别；数字签名原理；Kerberos鉴别工作原理；公钥基础设施结构；访问控制基本原理。</p>
 ]]></content>
     </entry>
 </feed>
