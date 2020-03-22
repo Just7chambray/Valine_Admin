@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>Techaholic</title>
-    <updated>2020-03-22T02:19:29.553Z</updated>
+    <updated>2020-03-22T02:50:24.110Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://Just7chambray.github.io/images/avatar.png</logo>
     <icon>https://Just7chambray.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Techaholic</rights>
+    <entry>
+        <title type="html"><![CDATA[20200322分享]]></title>
+        <id>https://Just7chambray.github.io/post/20200322Excerpt/</id>
+        <link href="https://Just7chambray.github.io/post/20200322Excerpt/">
+        </link>
+        <updated>2020-03-22T02:41:22.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[I'm Fine I'm just not Happy]]></title>
         <id>https://Just7chambray.github.io/post/IfIjnh/</id>
@@ -129,19 +136,6 @@ LAN的攻击类型及防御方法；无线网的风险及缓解方法；数据�
 ]]></summary>
         <content type="html"><![CDATA[<p>本章要点：<br>
 LAN的攻击类型及防御方法；无线网的风险及缓解方法；数据链路层风险及缓解方法；PPP,MAC,ARP的风险；网络层风险及缓解方法；IP风险及IP安全可选方案。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[网络安全（五）]]></title>
-        <id>https://Just7chambray.github.io/post/net_safety5/</id>
-        <link href="https://Just7chambray.github.io/post/net_safety5/">
-        </link>
-        <updated>2019-12-31T12:05:29.000Z</updated>
-        <summary type="html"><![CDATA[<p>本章要点：<br>
-可信系统体系结构及其要素；网络安全的分层体系结构；OSI安全体系结构的安全服务与安全机制；ISO/IEC网络安全体系结构。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>本章要点：<br>
-可信系统体系结构及其要素；网络安全的分层体系结构；OSI安全体系结构的安全服务与安全机制；ISO/IEC网络安全体系结构。</p>
 ]]></content>
     </entry>
 </feed>
