@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>Techaholic</title>
-    <updated>2020-04-15T08:18:25.246Z</updated>
+    <updated>2020-05-07T10:54:54.409Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://Just7chambray.github.io/images/avatar.png</logo>
     <icon>https://Just7chambray.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Techaholic</rights>
+    <entry>
+        <title type="html"><![CDATA[Vacation in Hangzhou]]></title>
+        <id>https://Just7chambray.github.io/post/vacation_in_Hangzhou/</id>
+        <link href="https://Just7chambray.github.io/post/vacation_in_Hangzhou/">
+        </link>
+        <updated>2020-05-05T01:25:53.000Z</updated>
+        <summary type="html"><![CDATA[<p>By Wu&amp;Ts</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>By Wu&amp;Ts</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[『第一周』网络爬虫之规则]]></title>
         <id>https://Just7chambray.github.io/post/web_crawler_1/</id>
@@ -1407,19 +1418,6 @@ VPN的基本概念和特点；VPN采用的主要技术；第二层VPN协议的�
 ]]></summary>
         <content type="html"><![CDATA[<p>本章要点：<br>
 防火墙原理；防火墙主要技术；防火墙体系结构；堡垒主机的作用及部署；数据包的过滤规则；状态检测数据包过滤原理。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[网络安全（七）]]></title>
-        <id>https://Just7chambray.github.io/post/net_safety7/</id>
-        <link href="https://Just7chambray.github.io/post/net_safety7/">
-        </link>
-        <updated>2019-12-31T13:17:15.000Z</updated>
-        <summary type="html"><![CDATA[<p>本章要点：<br>
-传输层风险及缓解方法；攻击TCP和UDP的方法及缓解方法；DNS风险及缓解方法；SMTP邮件风险及缓解方法；HTTP风险及缓解方法。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>本章要点：<br>
-传输层风险及缓解方法；攻击TCP和UDP的方法及缓解方法；DNS风险及缓解方法；SMTP邮件风险及缓解方法；HTTP风险及缓解方法。</p>
 ]]></content>
     </entry>
 </feed>
