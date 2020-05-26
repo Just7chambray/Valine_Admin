@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>Techaholic</title>
-    <updated>2020-05-25T13:37:00.495Z</updated>
+    <updated>2020-05-26T15:03:21.408Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://Just7chambray.github.io/images/avatar.png</logo>
     <icon>https://Just7chambray.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Techaholic</rights>
+    <entry>
+        <title type="html"><![CDATA[PAT(Advanced)查找元素]]></title>
+        <id>https://Just7chambray.github.io/post/pat_adv_lookingfor/</id>
+        <link href="https://Just7chambray.github.io/post/pat_adv_lookingfor/">
+        </link>
+        <updated>2020-05-26T14:53:45.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PAT(Advanced)模拟篇]]></title>
         <id>https://Just7chambray.github.io/post/pat_adv_simulation/</id>
@@ -1399,19 +1406,6 @@ IPSec的而概念、功能、体系结构；安全联盟和安全策略的概念
 ]]></summary>
         <content type="html"><![CDATA[<p>本章要点：<br>
 IPSec的而概念、功能、体系结构；安全联盟和安全策略的概念；传输模式和隧道模式的功能和特点；IPSec安全协议的AN机制和功能；IPSec安全协议的ESP机制和功能；密钥管理协议ISAKMP机制和功能；Internet的密钥交换协议IKE机制和功能。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[网络安全（九）]]></title>
-        <id>https://Just7chambray.github.io/post/net_safety9/</id>
-        <link href="https://Just7chambray.github.io/post/net_safety9/">
-        </link>
-        <updated>2019-12-31T13:25:35.000Z</updated>
-        <summary type="html"><![CDATA[<p>本章要点：<br>
-VPN的基本概念和特点；VPN采用的主要技术；第二层VPN协议的机制和功能；第三层的一种VPN协议的机制和功能。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>本章要点：<br>
-VPN的基本概念和特点；VPN采用的主要技术；第二层VPN协议的机制和功能；第三层的一种VPN协议的机制和功能。</p>
 ]]></content>
     </entry>
 </feed>
