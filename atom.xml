@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>Techaholic</title>
-    <updated>2020-06-13T09:09:58.735Z</updated>
+    <updated>2020-08-27T05:04:47.473Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -11,32 +11,14 @@
     <icon>https://Just7chambray.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Techaholic</rights>
     <entry>
-        <title type="html"><![CDATA[操作系统重点盘点]]></title>
-        <id>https://Just7chambray.github.io/post/os/</id>
-        <link href="https://Just7chambray.github.io/post/os/">
-        </link>
-        <updated>2020-06-13T07:57:27.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[操作系统作业整理（二）]]></title>
-        <id>https://Just7chambray.github.io/post/os_job2/</id>
-        <link href="https://Just7chambray.github.io/post/os_job2/">
-        </link>
-        <updated>2020-06-05T09:22:28.000Z</updated>
-        <summary type="html"><![CDATA[<p>时间片轮转法、银行家算法、动态分区分配算法、地址变换</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>时间片轮转法、银行家算法、动态分区分配算法、地址变换</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[操作系统作业整理（一）]]></title>
-        <id>https://Just7chambray.github.io/post/os_job1/</id>
-        <link href="https://Just7chambray.github.io/post/os_job1/">
+        <title type="html"><![CDATA[操作系统复习]]></title>
+        <id>https://Just7chambray.github.io/post/os_review/</id>
+        <link href="https://Just7chambray.github.io/post/os_review/">
         </link>
         <updated>2020-05-29T09:24:05.000Z</updated>
-        <summary type="html"><![CDATA[<p>前趋图，前趋关系，进程同步，资源调度算法（FCFS &amp; SJF）</p>
+        <summary type="html"><![CDATA[<p>名词解释、简答题、计算题</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>前趋图，前趋关系，进程同步，资源调度算法（FCFS &amp; SJF）</p>
+        <content type="html"><![CDATA[<p>名词解释、简答题、计算题</p>
 ]]></content>
     </entry>
     <entry>
@@ -1398,6 +1380,30 @@ requests.delete(url,**kwargs)
 <li>批量删除指定大小文件</li>
 <li>批量删除字符匹配文件</li>
 </ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[须臾一线吐复落]]></title>
+        <id>https://Just7chambray.github.io/post/sunrise/</id>
+        <link href="https://Just7chambray.github.io/post/sunrise/">
+        </link>
+        <updated>2020-01-30T09:07:56.000Z</updated>
+        <summary type="html"><![CDATA[<p>肝！看日出去！</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>肝！看日出去！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网络安全（十一）]]></title>
+        <id>https://Just7chambray.github.io/post/net_safety11/</id>
+        <link href="https://Just7chambray.github.io/post/net_safety11/">
+        </link>
+        <updated>2019-12-31T14:06:26.000Z</updated>
+        <summary type="html"><![CDATA[<p>本章要点：<br>
+入侵检测的概念；入侵检测系统分类；入侵检测系统分析方式；入侵检测系统的设置域部署；入侵检测系统的优缺点。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本章要点：<br>
+入侵检测的概念；入侵检测系统分类；入侵检测系统分析方式；入侵检测系统的设置域部署；入侵检测系统的优缺点。</p>
 ]]></content>
     </entry>
 </feed>
