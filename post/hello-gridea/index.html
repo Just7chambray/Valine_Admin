@@ -330,15 +330,16 @@
 
 
 
-    
+        <!--引入Valine-->
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '9jxs7DFUKyHw6619OPXUt30f-gzGzoHsz',
+            appKey: '6MeNR50UG8AfLoDVoQtab6iT'
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' // [v1.0.7 new]留言框占位提示文字
+        })
+    </script>
 </body>
-<!--引入Valine-->
-<div id="vcomments"></div>
-<script>
-    new Valine({
-        el: '#vcomments',
-        appId: '9jxs7DFUKyHw6619OPXUt30f-gzGzoHsz',
-        appKey: '6MeNR50UG8AfLoDVoQtab6iT'
-    })
-</script>
+
 </html>
