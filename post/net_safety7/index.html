@@ -15,6 +15,9 @@
 
 <link rel="stylesheet" href="https://Just7chambray.github.io/styles/main.css">
 
+<!-- 引入Valine -->
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
 <!-- Modernizr JS -->
 <script src="https://Just7chambray.github.io/media/scripts/modernizr-2.6.2.min.js"></script>
 <!-- FOR IE9 below -->
@@ -1236,5 +1239,15 @@ Web服务器有images和icons目录。在原来的URL拼接上icons后，即使�
 
 
 
+
+    <!--引入Valine-->
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '9jxs7DFUKyHw6619OPXUt30f-gzGzoHsz',
+            appKey: '6MeNR50UG8AfLoDVoQtab6iT'
+        })
+    </script>
 </body>
 </html>
