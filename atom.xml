@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>Techaholic</title>
-    <updated>2020-09-21T03:05:35.880Z</updated>
+    <updated>2020-09-21T06:28:03.046Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -1362,19 +1362,6 @@ requests.delete(url,**kwargs)
         <updated>2020-03-22T02:41:22.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[I'm Fine I'm just not Happy]]></title>
-        <id>https://Just7chambray.github.io/post/IfIjnh/</id>
-        <link href="https://Just7chambray.github.io/post/IfIjnh/">
-        </link>
-        <updated>2020-03-21T12:13:35.000Z</updated>
-        <summary type="html"><![CDATA[<p>我没事<br>
-只是有点不开心</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>我没事<br>
-只是有点不开心</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Win10批量删除👌]]></title>
         <id>https://Just7chambray.github.io/post/win10_batch_deletion/</id>
         <link href="https://Just7chambray.github.io/post/win10_batch_deletion/">
@@ -1402,6 +1389,19 @@ requests.delete(url,**kwargs)
         <summary type="html"><![CDATA[<p>肝！看日出去！</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>肝！看日出去！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网络安全（十一）]]></title>
+        <id>https://Just7chambray.github.io/post/net_safety11/</id>
+        <link href="https://Just7chambray.github.io/post/net_safety11/">
+        </link>
+        <updated>2019-12-31T14:06:26.000Z</updated>
+        <summary type="html"><![CDATA[<p>本章要点：<br>
+入侵检测的概念；入侵检测系统分类；入侵检测系统分析方式；入侵检测系统的设置域部署；入侵检测系统的优缺点。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本章要点：<br>
+入侵检测的概念；入侵检测系统分类；入侵检测系统分析方式；入侵检测系统的设置域部署；入侵检测系统的优缺点。</p>
 ]]></content>
     </entry>
 </feed>
