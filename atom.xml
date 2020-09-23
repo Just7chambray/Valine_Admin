@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://Just7chambray.github.io</id>
+    <id>https://j8hmx4.coding-pages.com/</id>
     <title>Techaholic</title>
-    <updated>2020-09-21T06:28:03.046Z</updated>
+    <updated>2020-09-23T10:14:44.287Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://Just7chambray.github.io"/>
-    <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
+    <link rel="alternate" href="https://j8hmx4.coding-pages.com/"/>
+    <link rel="self" href="https://j8hmx4.coding-pages.com/atom.xml"/>
     <subtitle>栖迟於一丘，则天下不易其乐。</subtitle>
-    <logo>https://Just7chambray.github.io/images/avatar.png</logo>
-    <icon>https://Just7chambray.github.io/favicon.ico</icon>
+    <logo>https://j8hmx4.coding-pages.com/images/avatar.png</logo>
+    <icon>https://j8hmx4.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, Techaholic</rights>
     <entry>
         <title type="html"><![CDATA[实训日记0909]]></title>
-        <id>https://Just7chambray.github.io/post/20200909prodairy/</id>
-        <link href="https://Just7chambray.github.io/post/20200909prodairy/">
+        <id>https://j8hmx4.coding-pages.com/post/20200909prodairy/</id>
+        <link href="https://j8hmx4.coding-pages.com/post/20200909prodairy/">
         </link>
         <updated>2020-09-09T13:14:17.000Z</updated>
         <summary type="html"><![CDATA[<p>实训第三天</p>
@@ -23,8 +23,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[操作系统复习]]></title>
-        <id>https://Just7chambray.github.io/post/os_review/</id>
-        <link href="https://Just7chambray.github.io/post/os_review/">
+        <id>https://j8hmx4.coding-pages.com/post/os_review/</id>
+        <link href="https://j8hmx4.coding-pages.com/post/os_review/">
         </link>
         <updated>2020-05-29T09:24:05.000Z</updated>
         <summary type="html"><![CDATA[<p>名词解释、简答题、计算题</p>
@@ -34,22 +34,22 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[PAT(Advanced)查找元素]]></title>
-        <id>https://Just7chambray.github.io/post/pat_adv_lookingfor/</id>
-        <link href="https://Just7chambray.github.io/post/pat_adv_lookingfor/">
+        <id>https://j8hmx4.coding-pages.com/post/pat_adv_lookingfor/</id>
+        <link href="https://j8hmx4.coding-pages.com/post/pat_adv_lookingfor/">
         </link>
         <updated>2020-05-26T14:53:45.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[PAT(Advanced)模拟篇]]></title>
-        <id>https://Just7chambray.github.io/post/pat_adv_simulation/</id>
-        <link href="https://Just7chambray.github.io/post/pat_adv_simulation/">
+        <id>https://j8hmx4.coding-pages.com/post/pat_adv_simulation/</id>
+        <link href="https://j8hmx4.coding-pages.com/post/pat_adv_simulation/">
         </link>
         <updated>2020-05-25T12:33:26.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Vacation in Hangzhou]]></title>
-        <id>https://Just7chambray.github.io/post/vacation_in_Hangzhou/</id>
-        <link href="https://Just7chambray.github.io/post/vacation_in_Hangzhou/">
+        <id>https://j8hmx4.coding-pages.com/post/vacation_in_Hangzhou/</id>
+        <link href="https://j8hmx4.coding-pages.com/post/vacation_in_Hangzhou/">
         </link>
         <updated>2020-05-05T01:25:53.000Z</updated>
         <summary type="html"><![CDATA[<p>By Wu&amp;Ts</p>
@@ -59,8 +59,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[『第一周』网络爬虫之规则]]></title>
-        <id>https://Just7chambray.github.io/post/web_crawler_1/</id>
-        <link href="https://Just7chambray.github.io/post/web_crawler_1/">
+        <id>https://j8hmx4.coding-pages.com/post/web_crawler_1/</id>
+        <link href="https://j8hmx4.coding-pages.com/post/web_crawler_1/">
         </link>
         <updated>2020-03-31T07:20:40.000Z</updated>
         <summary type="html"><![CDATA[<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>【第一周】网络爬虫之规则</title><style>
@@ -1356,15 +1356,15 @@ requests.delete(url,**kwargs)
     </entry>
     <entry>
         <title type="html"><![CDATA[20200322分享]]></title>
-        <id>https://Just7chambray.github.io/post/20200322Excerpt/</id>
-        <link href="https://Just7chambray.github.io/post/20200322Excerpt/">
+        <id>https://j8hmx4.coding-pages.com/post/20200322Excerpt/</id>
+        <link href="https://j8hmx4.coding-pages.com/post/20200322Excerpt/">
         </link>
         <updated>2020-03-22T02:41:22.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Win10批量删除👌]]></title>
-        <id>https://Just7chambray.github.io/post/win10_batch_deletion/</id>
-        <link href="https://Just7chambray.github.io/post/win10_batch_deletion/">
+        <id>https://j8hmx4.coding-pages.com/post/win10_batch_deletion/</id>
+        <link href="https://j8hmx4.coding-pages.com/post/win10_batch_deletion/">
         </link>
         <updated>2020-03-12T06:56:49.000Z</updated>
         <summary type="html"><![CDATA[<ol>
@@ -1382,8 +1382,8 @@ requests.delete(url,**kwargs)
     </entry>
     <entry>
         <title type="html"><![CDATA[须臾一线吐复落]]></title>
-        <id>https://Just7chambray.github.io/post/sunrise/</id>
-        <link href="https://Just7chambray.github.io/post/sunrise/">
+        <id>https://j8hmx4.coding-pages.com/post/sunrise/</id>
+        <link href="https://j8hmx4.coding-pages.com/post/sunrise/">
         </link>
         <updated>2020-01-30T09:07:56.000Z</updated>
         <summary type="html"><![CDATA[<p>肝！看日出去！</p>
@@ -1393,8 +1393,8 @@ requests.delete(url,**kwargs)
     </entry>
     <entry>
         <title type="html"><![CDATA[网络安全（十一）]]></title>
-        <id>https://Just7chambray.github.io/post/net_safety11/</id>
-        <link href="https://Just7chambray.github.io/post/net_safety11/">
+        <id>https://j8hmx4.coding-pages.com/post/net_safety11/</id>
+        <link href="https://j8hmx4.coding-pages.com/post/net_safety11/">
         </link>
         <updated>2019-12-31T14:06:26.000Z</updated>
         <summary type="html"><![CDATA[<p>本章要点：<br>
