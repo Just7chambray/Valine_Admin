@@ -1,212 +1,593 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>图廊 | Techaholic</title>
-<meta name="description" content="栖迟於一丘，则天下不易其乐。">
+<title>Techaholic</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="栖迟於一丘，则天下不易其乐。"/>
+<meta name="keywords" content="栖迟於一丘，则天下不易其乐。"/>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://Just7chambray.github.io/favicon.ico?v=1601092429508">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="https://Just7chambray.github.io/favicon.ico">
+
 <link rel="stylesheet" href="https://Just7chambray.github.io/styles/main.css">
 
+<!-- Modernizr JS -->
+<script src="https://Just7chambray.github.io/media/scripts/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+<scripts src="https://Just7chambray.github.io/media/scripts/respond.min.js"></scripts>
+<![endif]-->
+
+<!-- Comment -->
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- katex -->
+<!--<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet">-->
+
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 
 
 
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://Just7chambray.github.io">
-        <img src="https://Just7chambray.github.io/images/avatar.png?v=1601092429508" class="site-logo">
-        <h1 class="site-title">Techaholic</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+</head>
+<body>
+    <div id="fh5co-offcanvas">
+    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
+        <span><i class="icon-cross3"></i> <span>Close</span></span>
+    </a>
+    <div class="fh5co-bio">
+        <figure>
+            <img src="https://Just7chambray.github.io/images/avatar.png" alt="Techaholic"
+                 class="img-responsive">
+        </figure>
+        <a href="https://Just7chambray.github.io/post/about/"><h3 class="heading">ABOUT ME</h3></a>
+        <h2>Techaholic</h2>
+        <p>栖迟於一丘，则天下不易其乐。</p>
+        <ul class="fh5co-social">
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+        </ul>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="https://Just7chambray.github.io/post/gallery" class="site-nav">
-            图廊
-          </a>
-        
-      
-        
-          <a href="http://Just7chambray.github.io/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
+
+    <div class="fh5co-menu">
+
+        <!-- 标签 -->
+        <div class="fh5co-box">
+            <a href="https://Just7chambray.github.io/tags/"><h3 class="heading">👉标签</h3></a>
+            <ul>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/BPnhyZ4d6">随笔</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/WuIcMhG1C">生活</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/KVg3nF_bf">操作系统</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/7A_LubBBp">PAT</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/WDEFvVHzy">Python</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/7e4gCi1Ge6">爬虫</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/vFqmDBjhB">科技</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/CCd84zy3z">摘抄</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/TILESCRKuS">效率</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/net_safety">网络安全</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/Ymo0I2cUE">Kindle</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/gridea">Gridea</a></li>
+                
+            </ul>
+        </div>
     </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
+</div>
+
+<header id="fh5co-header">
+    <div class="container-fluid">
+        <div class="row">
+            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+            <ul class="fh5co-social">
+                
+                    <li>
+                        <a href="/"
+                        
+                        >
+                            首页
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives"
+                        
+                        >
+                            归档
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags"
+                        
+                        >
+                            标签
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://Just7chambray.github.io/post/gallery"
+                        
+                        >
+                            图廊
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://Just7chambray.github.io/post/about"
+                        
+                        >
+                            关于
+                        </a>
+                    </li>
+                
+            </ul>
+            <div class="col-lg-12 col-md-12 text-center">
+                <h1 id="fh5co-logo">
+                    <a href="https://Just7chambray.github.io">Techaholic </a>
+                </h1>
+            </div>
+        </div>
     </div>
-    <div class="site-description">
-      栖迟於一丘，则天下不易其乐。
+</header>
+
+
+    <!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
+    <!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
+
+    <!-- 等gridea出自定义页面功能再优化一下 -->
+    
+        
+
+<div class="container">
+    <div class="row fh5co-post-entry single-entry">
+        <!-- 图册描述 -->
+        <div class="container" style="padding-bottom: 3em;">
+            <article class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xxs-12 animate-box">
+                <h5 class="fh5co-article-title"><h3 id="关于图廊">关于图廊：</h3>
+<p>部分图片为个人拍摄；部分图片资源搜集于网络，仅供交流欣赏。如有侵权，可联系博主About关于页面邮箱，立即删除。<br>
+目前资源都存放于个人阿里云OSS上。</p>
+</h5>
+            </article>
+        </div>
+
+        
+
+            <!-- 阴影卡片布局 -->
+            <div class="gallery">
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover1">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/20181028_123130_0.jpg" alt="cover1"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover2">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/20190108_092402_0.jpg" alt="cover2"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover3">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/20190815_054651_0.jpg" alt="cover3"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover4">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2802%29.jpg" alt="cover4"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover5">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2809%29.jpg" alt="cover5"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover6">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2811%29.jpg" alt="cover6"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover7">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2801%29.jpg" alt="cover7"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover8">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2803%29.jpg" alt="cover8"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover9">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2805%29.jpg" alt="cover9"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover10">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2806%29.jpg" alt="cover10"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover11">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2807%29.jpg" alt="cover11"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover12">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2808%29.jpg" alt="cover12"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover13">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2810%29.jpg" alt="cover13"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover14">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2812%29.jpg" alt="cover14"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="cover15">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/20190930_060820_0.jpg" alt="cover15"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic1">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%281%29.jpg" alt="pic1"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic2">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2810%29.jpg" alt="pic2"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic3">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2811%29.jpg" alt="pic3"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic4">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2812%29.jpg" alt="pic4"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic5">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2813%29.jpg" alt="pic5"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic6">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2814%29.jpg" alt="pic6"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic7">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2815%29.jpg" alt="pic7"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic8">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2816%29.jpg" alt="pic8"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic9">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2817%29.jpg" alt="pic9"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic10">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2818%29.jpg" alt="pic10"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic11">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2819%29.jpg" alt="pic11"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic12">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%282%29.jpg" alt="pic12"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic13">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2820%29.jpg" alt="pic13"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic14">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2821%29.jpg" alt="pic14"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic15">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2822%29.jpg" alt="pic15"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic16">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2823%29.jpg" alt="pic16"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic17">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2824%29.jpg" alt="pic17"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic18">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2826%29.jpg" alt="pic18"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic19">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2827%29.jpg" alt="pic19"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic20">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2828%29.jpg" alt="pic20"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic21">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2829%29.jpg" alt="pic21"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic22">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%283%29.jpg" alt="pic22"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic23">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2830%29.jpg" alt="pic23"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic24">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2831%29.jpg" alt="pic24"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic25">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2832%29.jpg" alt="pic25"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic26">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2833%29.jpg" alt="pic26"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic27">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2834%29.jpg" alt="pic27"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic28">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%284%29.jpg" alt="pic28"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic29">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%285%29.jpg" alt="pic29"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic30">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%286%29.jpg" alt="pic30"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic31">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%287%29.jpg" alt="pic31"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic32">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%288%29.jpg" alt="pic32"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic33">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%289%29.jpg" alt="pic33"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic34">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2825%29.jpg" alt="pic34"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic35">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2801%29.jpg" alt="pic35"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic36">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2802%29.jpg" alt="pic36"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic37">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2803%29.jpg" alt="pic37"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic38">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2804%29.jpg" alt="pic38"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic39">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2805%29.jpg" alt="pic39"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic40">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2806%29.jpg" alt="pic40"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic41">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2807%29.jpg" alt="pic41"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic42">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2808%29.jpg" alt="pic42"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic43">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2809%29.jpg" alt="pic43"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic44">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2810%29.jpg" alt="pic44"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic45">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2811%29.jpg" alt="pic45"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic46">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2812%29.jpg" alt="pic46"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic47">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2813%29.jpg" alt="pic47"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic48">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2814%29.jpg" alt="pic48"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic49">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2815%29.jpg" alt="pic49"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic50">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2816%29.jpg" alt="pic50"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic51">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2817%29.jpg" alt="pic51"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic52">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2818%29.jpg" alt="pic52"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic53">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2819%29.jpg" alt="pic53"/>
+                    </div>
+                
+                    <div class="gallery-item animate-box" data-toggle="tooltip" data-placement="top" title="pic54">
+                        <img class="gallery-image lazy" data-original="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2820%29.jpg" alt="pic54"/>
+                    </div>
+                
+            </div>
+        
+
+        <!-- 分隔线 -->
+        <div class="container-fluid" style="padding-top: 3em;">
+            <article class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xxs-12 animate-box">
+                <hr class="album-hr">
+            </article>
+        </div>
     </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Just7chambray.github.io/atom.xml" target="_blank">RSS</a>
+
+    <div class="row">
+    <div class="col-md-12 animate-box">
+        
     </div>
-  </div>
 </div>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">图廊</h2>
-            <div class="post-date">2020-03-12</div>
-            
-            <div class="post-content">
-              <h3 id="关于图廊">关于图廊：</h3>
-<p>部分图片为个人拍摄；部分图片资源搜集于网络，仅供交流欣赏。如有侵权，可联系博主About关于页面邮箱，立即删除。<br>
-目前资源都存放于个人阿里云OSS上。</p>
-<h2 id="-more-"><!-- more --><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/20181028_123130_0.jpg" alt="cover1"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/20190108_092402_0.jpg" alt="cover2"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/20190815_054651_0.jpg" alt="cover3"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2802%29.jpg" alt="cover4"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2809%29.jpg" alt="cover5"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2811%29.jpg" alt="cover6"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2801%29.jpg" alt="cover7"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2803%29.jpg" alt="cover8"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2805%29.jpg" alt="cover9"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2806%29.jpg" alt="cover10"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2807%29.jpg" alt="cover11"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2808%29.jpg" alt="cover12"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2810%29.jpg" alt="cover13"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%85%A7%E7%89%87%20%2812%29.jpg" alt="cover14"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/20190930_060820_0.jpg" alt="cover15"></h2>
-<p><img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%281%29.jpg" alt="pic1"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2810%29.jpg" alt="pic2"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2811%29.jpg" alt="pic3"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2812%29.jpg" alt="pic4"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2813%29.jpg" alt="pic5"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2814%29.jpg" alt="pic6"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2815%29.jpg" alt="pic7"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2816%29.jpg" alt="pic8"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2817%29.jpg" alt="pic9"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2818%29.jpg" alt="pic10"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2819%29.jpg" alt="pic11"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%282%29.jpg" alt="pic12"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2820%29.jpg" alt="pic13"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2821%29.jpg" alt="pic14"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2822%29.jpg" alt="pic15"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2823%29.jpg" alt="pic16"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2824%29.jpg" alt="pic17"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2826%29.jpg" alt="pic18"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2827%29.jpg" alt="pic19"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2828%29.jpg" alt="pic20"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2829%29.jpg" alt="pic21"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%283%29.jpg" alt="pic22"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2830%29.jpg" alt="pic23"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2831%29.jpg" alt="pic24"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2832%29.jpg" alt="pic25"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2833%29.jpg" alt="pic26"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2834%29.jpg" alt="pic27"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%284%29.jpg" alt="pic28"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%285%29.jpg" alt="pic29"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%286%29.jpg" alt="pic30"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%287%29.jpg" alt="pic31"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%288%29.jpg" alt="pic32"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%289%29.jpg" alt="pic33"></p>
-<p><img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E6%A8%AA%E5%9B%BE%20%2825%29.jpg" alt="pic34"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2801%29.jpg" alt="pic35"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2802%29.jpg" alt="pic36"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2803%29.jpg" alt="pic37"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2804%29.jpg" alt="pic38"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2805%29.jpg" alt="pic39"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2806%29.jpg" alt="pic40"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2807%29.jpg" alt="pic41"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2808%29.jpg" alt="pic42"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2809%29.jpg" alt="pic43"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2810%29.jpg" alt="pic44"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2811%29.jpg" alt="pic45"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2812%29.jpg" alt="pic46"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2813%29.jpg" alt="pic47"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2814%29.jpg" alt="pic48"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2815%29.jpg" alt="pic49"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2816%29.jpg" alt="pic50"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2817%29.jpg" alt="pic51"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2818%29.jpg" alt="pic52"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2819%29.jpg" alt="pic53"><br>
-<img src="https://jc-gridea.oss-cn-shanghai.aliyuncs.com/images/Gallery/%E7%AB%96%E5%9B%BE%20%20%2820%29.jpg" alt="pic54"></p>
+</div>
 
-            </div>
-            
-            
+    
 
-            
+    <!-- 返回顶部 -->
+    <div class="back-to-top">
+    
+        <a href="#!" id="tool-toc" class="hidden-xs hidden-sm">
+            <i class="fa fa-map"></i>
+        </a>
+        <br>
+    
+    <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
+</div>
 
-          </div>
+<div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
+    <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%BB%8A">关于图廊：</a></li>
+</ul>
+</li>
+<li><a href="#-more-"><!-- more --><br>
+!cover1<br>
+!cover2<br>
+!cover3<br>
+!cover4<br>
+!cover5<br>
+!cover6<br>
+!cover7<br>
+!cover8<br>
+!cover9<br>
+!cover10<br>
+!cover11<br>
+!cover12<br>
+!cover13<br>
+!cover14<br>
+!cover15</a></li>
+</ul>
+</li>
+</ul>
 
-        </div>
-      </div>
-    </div>
+</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    
+<footer id="fh5co-footer">
+  <p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></p>
+</footer>
+
+
+    <!-- jQuery -->
+<script src="https://Just7chambray.github.io/media/scripts/jquery.min.js"></script>
+<!-- img lazy load -->
+<script src="https://Just7chambray.github.io/media/scripts/jquery.lazyload.min.js"></script>
+<!-- jQuery Easing -->
+<script src="https://Just7chambray.github.io/media/scripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="https://Just7chambray.github.io/media/scripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="https://Just7chambray.github.io/media/scripts/jquery.waypoints.min.js"></script>
+<!-- Main JS -->
+<script src="https://Just7chambray.github.io/media/scripts/main.js"></script>
+<!-- Md5 Min JS -->
+<script src="https://Just7chambray.github.io/media/scripts/md5.min.js"></script>
+<!-- katex -->
+<!--<script src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>-->
+<!-- highlight -->
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
+
 
 <script type="application/javascript">
+    // 代码高亮
+    hljs.initHighlightingOnLoad();
 
-AOS.init();
+    // img 懒加载
+    $(function () {
+        $("img.lazy").lazyload({
+            effect: "fadeIn",  // 懒加载动画
+            threshold: 180  // 在图片距离屏幕180px时提前载入
+        });
+        // tooltip
+        $('[data-toggle="tooltip"]').tooltip();
 
-hljs.initHighlightingOnLoad()
+        // 目录
+        $('#tool-toc').click(function () {
+            $('.post-toc').toggle();
+        });
+    });
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+    
+        var allImg = $("img");
+        allImg.on("contextmenu", function () {
+            return false;
+        });
+        allImg.on("dragstart", function () {
+            return false;
+        });
+    
 </script>
 
 
 
 
-  </body>
+</body>
 </html>

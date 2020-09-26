@@ -1,111 +1,203 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>PAT(Advanced)模拟篇 | Techaholic</title>
-<meta name="description" content="栖迟於一丘，则天下不易其乐。">
+<title>Techaholic</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="栖迟於一丘，则天下不易其乐。"/>
+<meta name="keywords" content="栖迟於一丘，则天下不易其乐。"/>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://Just7chambray.github.io/favicon.ico?v=1601092429508">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="https://Just7chambray.github.io/favicon.ico">
+
 <link rel="stylesheet" href="https://Just7chambray.github.io/styles/main.css">
 
+<!-- Modernizr JS -->
+<script src="https://Just7chambray.github.io/media/scripts/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+<scripts src="https://Just7chambray.github.io/media/scripts/respond.min.js"></scripts>
+<![endif]-->
+
+<!-- Comment -->
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- katex -->
+<!--<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet">-->
+
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 
 
 
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://Just7chambray.github.io">
-        <img src="https://Just7chambray.github.io/images/avatar.png?v=1601092429508" class="site-logo">
-        <h1 class="site-title">Techaholic</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+</head>
+<body>
+    <div id="fh5co-offcanvas">
+    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
+        <span><i class="icon-cross3"></i> <span>Close</span></span>
+    </a>
+    <div class="fh5co-bio">
+        <figure>
+            <img src="https://Just7chambray.github.io/images/avatar.png" alt="Techaholic"
+                 class="img-responsive">
+        </figure>
+        <a href="https://Just7chambray.github.io/post/about/"><h3 class="heading">ABOUT ME</h3></a>
+        <h2>Techaholic</h2>
+        <p>栖迟於一丘，则天下不易其乐。</p>
+        <ul class="fh5co-social">
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+        </ul>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="https://Just7chambray.github.io/post/gallery" class="site-nav">
-            图廊
-          </a>
-        
-      
-        
-          <a href="http://Just7chambray.github.io/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
+
+    <div class="fh5co-menu">
+
+        <!-- 标签 -->
+        <div class="fh5co-box">
+            <a href="https://Just7chambray.github.io/tags/"><h3 class="heading">👉标签</h3></a>
+            <ul>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/BPnhyZ4d6">随笔</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/WuIcMhG1C">生活</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/KVg3nF_bf">操作系统</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/7A_LubBBp">PAT</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/WDEFvVHzy">Python</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/7e4gCi1Ge6">爬虫</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/vFqmDBjhB">科技</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/CCd84zy3z">摘抄</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/TILESCRKuS">效率</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/net_safety">网络安全</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/Ymo0I2cUE">Kindle</a></li>
+                
+                    <li><a href="https://Just7chambray.github.io/tag/gridea">Gridea</a></li>
+                
+            </ul>
+        </div>
     </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      栖迟於一丘，则天下不易其乐。
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Just7chambray.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
 </div>
 
+<header id="fh5co-header">
+    <div class="container-fluid">
+        <div class="row">
+            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+            <ul class="fh5co-social">
+                
+                    <li>
+                        <a href="/"
+                        
+                        >
+                            首页
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives"
+                        
+                        >
+                            归档
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags"
+                        
+                        >
+                            标签
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://Just7chambray.github.io/post/gallery"
+                        
+                        >
+                            图廊
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://Just7chambray.github.io/post/about"
+                        
+                        >
+                            关于
+                        </a>
+                    </li>
+                
+            </ul>
+            <div class="col-lg-12 col-md-12 text-center">
+                <h1 id="fh5co-logo">
+                    <a href="https://Just7chambray.github.io">Techaholic </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+</header>
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">PAT(Advanced)模拟篇</h2>
-            <div class="post-date">2020-05-25</div>
-            
-              <div class="feature-container" style="background-image: url('https://Just7chambray.github.io/post-images/pat_adv_simulation.png')">
-              </div>
-            
-            <div class="post-content">
-              <h2 id="a1042-shuffling-machine-20分">A1042 Shuffling Machine (20分)</h2>
+
+    <!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
+    <!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
+
+    <!-- 等gridea出自定义页面功能再优化一下 -->
+    
+        <div class="container-fluid">
+    <div class="row fh5co-post-entry single-entry">
+        <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+            <figure class="animate-box">
+                
+                    <img src="https://Just7chambray.github.io/post-images/pat_adv_simulation.png" alt="PAT(Advanced)模拟篇" class="img-responsive">
+                
+            </figure>
+            <span class="fh5co-meta animate-box">
+                
+                    <div class="tag-container">
+                        
+                            <a href="https://Just7chambray.github.io/tag/7A_LubBBp" class="tag">PAT, </a>
+                        
+                    </div>
+                
+            </span>
+            <h2 class="fh5co-article-title animate-box">PAT(Advanced)模拟篇</h2>
+            <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
+                <li>2020-05-25</li>
+                <li>2179字</li>
+                <li>13 min read</li>
+            </ol>
+
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+                <div class="row">
+                    <div class="col-md-12 animate-box post-content">
+                        <p> <h2 id="a1042-shuffling-machine-20分">A1042 Shuffling Machine (20分)</h2>
 <h3 id="question">Question</h3>
 <p>Shuffling is a procedure used to randomize a deck of playing cards. Because standard shuffling techniques are seen as weak, and in order to avoid &quot;inside jobs&quot; where employees collaborate with gamblers by performing inadequate shuffles, many casinos employ <strong>automatic shuffling machines</strong>. Your task is to simulate a shuffling machine.</p>
 <p>The machine shuffles a deck of 54 cards according to a given random order and repeats for a given number of times. It is assumed that the initial status of a card deck is in the following order:</p>
@@ -347,55 +439,174 @@ int main() {
 	return 0;
 }
 </code></pre>
+ </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 animate-box">
+                        
+                            <div class="next-post">
+                                <div class="next">下一篇</div>
+                                <a href="https://Just7chambray.github.io/post/vacation_in_Hangzhou">
+                                    <h3 class="post-title">
+                                        Vacation in Hangzhou
+                                    </h3>
+                                </a>
+                            </div>
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+    <div class="col-md-12 animate-box">
+        
+    </div>
+</div>
 
             </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://Just7chambray.github.io/tag/7A_LubBBp" class="tag">
-                    PAT
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://Just7chambray.github.io/post/vacation_in_Hangzhou">
-                  <h3 class="post-title">
-                    Vacation in Hangzhou
-                  </h3>
-                </a>
-              </div>
-            
 
-            
-
-          </div>
-
-        </div>
-      </div>
+        </article>
     </div>
+</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+
+    <!-- 返回顶部 -->
+    <div class="back-to-top">
+    
+        <a href="#!" id="tool-toc" class="hidden-xs hidden-sm">
+            <i class="fa fa-map"></i>
+        </a>
+        <br>
+    
+    <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
+</div>
+
+<div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
+    <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#a1042-shuffling-machine-20%E5%88%86">A1042 Shuffling Machine (20分)</a>
+<ul>
+<li><a href="#question">Question</a></li>
+<li><a href="#input-specification">Input Specification</a></li>
+<li><a href="#output-specification">Output Specification</a></li>
+<li><a href="#sample-input">Sample Input</a></li>
+<li><a href="#sample-output">Sample Output</a></li>
+<li><a href="#analysis">Analysis</a></li>
+<li><a href="#code">Code</a></li>
+</ul>
+</li>
+<li><a href="#a1046-shortest-distance-20%E5%88%86">A1046 Shortest Distance (20分)</a>
+<ul>
+<li><a href="#question-2">Question</a></li>
+<li><a href="#input-specification-2">Input Specification</a></li>
+<li><a href="#output-specification-2">Output Specification</a></li>
+<li><a href="#sample-input-2">Sample Input</a></li>
+<li><a href="#sample-output-2">Sample Output</a></li>
+<li><a href="#analysis-2">Analysis</a></li>
+<li><a href="#code-2">Code</a></li>
+</ul>
+</li>
+<li><a href="#a1065-ab-and-c-64bit-20%E5%88%86">A1065 A+B and C (64bit) (20分)</a>
+<ul>
+<li><a href="#question-3">Question</a></li>
+<li><a href="#input-specification-3">Input Specification</a></li>
+<li><a href="#output-specification-3">Output Specification</a></li>
+<li><a href="#sample-input-3">Sample Input</a></li>
+<li><a href="#sample-output-3">Sample Output</a></li>
+<li><a href="#analysis-3">Analysis</a></li>
+<li><a href="#code-3">Code</a></li>
+</ul>
+</li>
+<li><a href="#a1002-ab-for-polynomials-25%E5%88%86">A1002 A+B for Polynomials (25分)</a>
+<ul>
+<li><a href="#question-4">Question</a></li>
+<li><a href="#input-specification-4">Input Specification</a></li>
+<li><a href="#output-specification-4">Output Specification</a></li>
+<li><a href="#sample-input-4">Sample Input</a></li>
+<li><a href="#sample-output-4">Sample Output</a></li>
+<li><a href="#analysis-4">Analysis</a></li>
+<li><a href="#code-4">Code</a></li>
+</ul>
+</li>
+<li><a href="#a1009-product-of-polynomials-25%E5%88%86">A1009 Product of Polynomials (25分)</a>
+<ul>
+<li><a href="#question-5">Question</a></li>
+<li><a href="#input-specification-5">Input Specification</a></li>
+<li><a href="#output-specification-5">Output Specification</a></li>
+<li><a href="#sample-input-5">Sample Input</a></li>
+<li><a href="#sample-output-5">Sample Output</a></li>
+<li><a href="#analysis-5">Analysis</a></li>
+<li><a href="#code-5">Code</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+
+    
+<footer id="fh5co-footer">
+  <p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></p>
+</footer>
+
+
+    <!-- jQuery -->
+<script src="https://Just7chambray.github.io/media/scripts/jquery.min.js"></script>
+<!-- img lazy load -->
+<script src="https://Just7chambray.github.io/media/scripts/jquery.lazyload.min.js"></script>
+<!-- jQuery Easing -->
+<script src="https://Just7chambray.github.io/media/scripts/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="https://Just7chambray.github.io/media/scripts/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="https://Just7chambray.github.io/media/scripts/jquery.waypoints.min.js"></script>
+<!-- Main JS -->
+<script src="https://Just7chambray.github.io/media/scripts/main.js"></script>
+<!-- Md5 Min JS -->
+<script src="https://Just7chambray.github.io/media/scripts/md5.min.js"></script>
+<!-- katex -->
+<!--<script src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>-->
+<!-- highlight -->
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
+
 
 <script type="application/javascript">
+    // 代码高亮
+    hljs.initHighlightingOnLoad();
 
-AOS.init();
+    // img 懒加载
+    $(function () {
+        $("img.lazy").lazyload({
+            effect: "fadeIn",  // 懒加载动画
+            threshold: 180  // 在图片距离屏幕180px时提前载入
+        });
+        // tooltip
+        $('[data-toggle="tooltip"]').tooltip();
 
-hljs.initHighlightingOnLoad()
+        // 目录
+        $('#tool-toc').click(function () {
+            $('.post-toc').toggle();
+        });
+    });
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+    
+        var allImg = $("img");
+        allImg.on("contextmenu", function () {
+            return false;
+        });
+        allImg.on("dragstart", function () {
+            return false;
+        });
+    
 </script>
 
 
 
 
-  </body>
+</body>
 </html>
