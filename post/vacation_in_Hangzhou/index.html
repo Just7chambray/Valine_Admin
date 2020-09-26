@@ -35,7 +35,8 @@
 
 </head>
 <body>
-    <div id="fh5co-offcanvas">
+    
+<div id="fh5co-offcanvas">
     <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
         <span><i class="icon-cross3"></i> <span>Close</span></span>
     </a>
@@ -107,7 +108,7 @@
         </div>
     </div>
 </div>
-
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <header id="fh5co-header">
     <div class="container-fluid">
         <div class="row">
@@ -392,3 +393,11 @@
 
 </body>
 </html>
+<div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '9jxs7DFUKyHw6619OPXUt30f-gzGzoHsz',
+            appKey: '6MeNR50UG8AfLoDVoQtab6iT'
+        })
+    </script>
