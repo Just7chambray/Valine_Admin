@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
-    <title>Techaholic</title>
-    <updated>2020-10-15T14:49:08.005Z</updated>
+    <title>吴言吴语</title>
+    <updated>2020-10-15T15:00:14.088Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
     <subtitle>栖迟於一丘，则天下不易其乐。</subtitle>
     <logo>https://Just7chambray.github.io/images/avatar.png</logo>
     <icon>https://Just7chambray.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Techaholic</rights>
+    <rights>All rights reserved 2020, 吴言吴语</rights>
     <entry>
         <title type="html"><![CDATA[路漫漫其修远兮，吾将上下而求索]]></title>
         <id>https://Just7chambray.github.io/post/baoyan</id>
