@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>吴言吴语</title>
-    <updated>2020-12-06T13:26:10.023Z</updated>
+    <updated>2020-12-23T06:58:24.857Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://Just7chambray.github.io/images/avatar.png</logo>
     <icon>https://Just7chambray.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 吴言吴语</rights>
+    <entry>
+        <title type="html"><![CDATA[关于应试教育下家长与学生思维模式的思考]]></title>
+        <id>https://Just7chambray.github.io/post/20201223/</id>
+        <link href="https://Just7chambray.github.io/post/20201223/">
+        </link>
+        <updated>2020-12-23T02:59:10.000Z</updated>
+        <content type="html"><![CDATA[<p>宿舍一室友也成功保研，再加上之前关系就挺不错，因此我俩就走得比较近，就一直一起玩一起学习。<br>
+如题的思考主要来源于这位室友的妈妈的言语：近阶段我俩确实相较之前松散了些，也正是难得的空闲时光，没有课业压力、保研也尘埃落定，便利用这为数不多的时间去外面旅游了一趟，回厦之后还去了鼓浪屿耍了半天，随后就是白天图书馆、晚上待宿舍的平凡日子（晚上偶尔会在宿舍学习）。但是这一切在室友母亲看来我俩保上研后过于恣意，因此室友母亲就开始督促其学习。而室友也是个非常听话的乖宝宝，一通电话结束后就鸽了我原来的团建邀约（尽管后来又因为其他原因又赴约了🙃）。这不禁让我想到曾经年少的时候，父母察觉到最近你的玩心有点重，便苦口婆心地劝你收收心，好好学习，看看别人家的孩子都在用功学习。然后听话的你并没有左耳进右耳出，第二天立马乖乖学习。</p>
+<p>从小到大，如果没有被问过也会听过这样一句话：你到底是为了谁而学习啊？小时候的我们不知道自己的答案是什么，只知道正确答案不是别人，而是自己。而那时的我们凭借那时的认知却无法理解这背后的深意。而作为一名大学生如果尚未刷新对这个问题的认知，未免有些不该了。父母觉得你最近没有学习，然后一说你就去学习；看到室友们纷纷去图书馆学习，然后一看你也跟看去学习……是为父母而学吗？是为室友而学吗？……似乎前行的路上不断地有其他声音和力量来push你前进，但，好像很少是来自内心的声音与力量。<br>
+于是在大学又会产生这样一种错觉——好像在图书馆待得时间越长，不论自己的学习效率高低与否，也越能抚平心中对那段不学习时光的愧疚。很奇怪，不是吗？</p>
+<p>不过我也曾陷入这种奇怪的认知当中：从大一到大四，好像除了上课时间、睡觉时间我待过最久的就是图书馆了，尤其到了期末考试周期间，必早早起来去图书馆占座，而且一待就是一整天，回到宿舍看到室友们还在学习，原本消失的愧疚感又冒了出来……好像只是单纯地为了学习而学习。<br>
+现在的我厌倦了整天泡在图书馆而失去我的的感觉，以前觉得得自己一天在图书馆学十几个小时可真不错，成就感满满，而现在我只觉得在图书馆高效完成当天任务，再利用剩下的时间做自己想做的事情提升自我。<br>
+随着“内卷“这个词在大众视野中出现得愈发频繁，似乎更多的学生在大一大二就开始准备保研，竞争也愈发激烈。“为谁而学“这个问题，我们真的要好好问问自己，内心有答案吗，内心的答案是什么呢？</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[山茶花客厅小记]]></title>
         <id>https://Just7chambray.github.io/post/20201204/</id>
@@ -1476,78 +1491,6 @@ int main() {
 	return 0;
 }
 </code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vacation in Hangzhou]]></title>
-        <id>https://Just7chambray.github.io/post/vacation_in_Hangzhou/</id>
-        <link href="https://Just7chambray.github.io/post/vacation_in_Hangzhou/">
-        </link>
-        <updated>2020-05-05T01:25:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>By Wu&amp;Ts</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>By Wu&amp;Ts</p>
-<!-- more -->
-<h2 id="iframe-frameborderno-border0-marginwidth0-marginheight0-width330-height86-srcmusic163comoutchainplayertype2id461347460auto1height66iframe"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=461347460&auto=1&height=66"></iframe></h2>
-<h1 id="day1">Day1</h1>
-<figure data-type="image" tabindex="1"><img src="https://Just7chambray.github.io/post-images/1588847397636.png" alt="" loading="lazy"></figure>
-<h2 id="第一站新白鹿">第一站：新白鹿🦌</h2>
-<p>从台州到达杭州将近午饭时间，匆匆安置了行李就在陶老板的带领和推荐下去新白鹿餐厅。可能两个人都被饥饿感包围，光顾着品尝和点评，忘记了记录。<br>
-两个人点了五个菜——小份蛋黄鸡翅（强推👍，鸡翅酥脆的表面裹上了一层咸蛋黄，内部的鸡肉嫩而多汁）、仔排炒年糕（据陶老板回忆是好吃的，但是这次的蚝油味过重，印象分--）、松露豆腐（小块豆腐外裹了一层粉油炸，并在表面撒上了松露粉，豆腐本身的味道比较淡，感觉搭配一些酱汁可能会更好）、鱼羊鲜（鱼+羊是真的鲜，但其鲜的本质在一定程度上也取决于食材的新鲜与搭配。鱼不够新鲜、羊肉的膻味过重、酸豆角和笋的味道使得汤汁的风味有一点怪怪的，所以不是特别推荐，如果要尝试的话要考虑季节食材因素）、能吃壳的虾（推荐👍，本质上是将大部分的虾壳去掉之后裹粉油炸，味道还是不错的），总体来说是一般水平，可能是这五个菜搭配吃起来有些腻。</p>
-<h2 id="第二站宜家">第二站：宜家</h2>
-<p>此处省略n字（网红店的通病）……</p>
-<h2 id="第三站一品虾神龙虾">第三站：一品虾神龙虾🦞</h2>
-<p>在家瘫了一会之后还是被陶老板无情地推出了家门，步行去吃小龙虾，好在这家店的味道真的没有令我们失望。我们点了四斤金汤蒜蓉味的和一小份面条，不得不夸陶老板真会吃！夹一小份面在碗里，然后浇上小龙虾的汤头，再剥几个虾肉搅和搅和，等待一小会面条充分吸收汤汁浓郁的味道之后，一口鲜味随着紧致的肉感和多汁的面条在口腔中迸发。一个字，就是好吃！<br>
-<img src="https://Just7chambray.github.io/post-images/1588847456426.jpeg" alt="" loading="lazy"></p>
-<p>感觉四斤对于我们俩来说还是少了些，后来走一走到家又饿了……这是两个人的部分战绩<br>
-<img src="https://Just7chambray.github.io/post-images/1588847498934.jpeg" alt="" loading="lazy"><br>
-<img src="https://Just7chambray.github.io/post-images/1588847508577.jpeg" alt="" loading="lazy"></p>
-<hr>
-<h1 id="day2">Day2</h1>
-<figure data-type="image" tabindex="2"><img src="https://Just7chambray.github.io/post-images/1588847529239.jpeg" alt="" loading="lazy"></figure>
-<h2 id="第一站河坊街">第一站：河坊街👣</h2>
-<p>本以为河坊街会挺热闹的，但实际有些许冷清，可能是时间比较早。河坊街这一带都是石板路、老街、小桥流水人家这种风格，可能会更加吸引北方的孩子。</p>
-<p>树影斑驳<br>
-<img src="https://Just7chambray.github.io/post-images/1588847550582.jpeg" alt="" loading="lazy"><br>
-<img src="https://Just7chambray.github.io/post-images/1588847577936.jpeg" alt="" loading="lazy"><br>
-<img src="https://Just7chambray.github.io/post-images/1588847584288.jpeg" alt="" loading="lazy"><br>
-<img src="https://Just7chambray.github.io/post-images/1588847590869.jpeg" alt="" loading="lazy"></p>
-<p>走到鼓楼前，有一处小路通往小山，转角处还有阿婆在卖小时候看的连环画。<br>
-<img src="https://Just7chambray.github.io/post-images/1588847601084.jpeg" alt="" loading="lazy"></p>
-<p>槐花漫天飞<br>
-<img src="https://Just7chambray.github.io/post-images/1588847612172.jpeg" alt="" loading="lazy"></p>
-<p>在附近随便走走了好一会，还感受了杭州本地的生活环境，跑到人家小区里乱晃，这个老小区的阳台也会有绿色的棚棚，门前也会晒着用盐腌渍后的小虾……如果你看到两个奇奇怪怪的人突然停下步伐静止不动，不要投来诧异的目光，那只是两个台州人在努力的辨析杭州方言，听力结束后相视一笑：“听不懂啊！他们讲的好快哦！”<br>
-<img src="https://Just7chambray.github.io/post-images/1588847624644.jpeg" alt="" loading="lazy"></p>
-<h2 id="第二站杭州酒家">第二站：杭州酒家🥢</h2>
-<p>继续杭帮菜的打卡之路！</p>
-<p>我们去的这家店在延安路，位于一个路口的转角，到达的时候门口就有许多顾客在等待排队，好多还是杭州本地的，听到熟悉又陌生的吴语，默默猜测这家味道应该差不了。</p>
-<p>松丝汤包（一开始忘记要米醋了，陶老板没吃两个就觉得有些腻了，剩下就都是我的了:-I）<br>
-<img src="https://Just7chambray.github.io/post-images/1588847692270.jpeg" alt="" loading="lazy"></p>
-<p>水晶虾饺（这家的虾饺皮略微厚了些，但是整个味道还是不错的。by the way, I prefer this one.）<br>
-<img src="https://Just7chambray.github.io/post-images/1588847661288.jpeg" alt="" loading="lazy"></p>
-<p>杭州熏鱼（强推👍，虽然我只吃了两块，但是吃出了奶奶的味道。熏鱼算是浙菜的经典之一吧，用的鱼必须是草鱼或者青鱼，将它切成一公分厚度的鱼段，腌制油炸入味，而且必须是糖醋味的才好吃！）<br>
-<img src="https://Just7chambray.github.io/post-images/1588847673282.jpeg" alt="" loading="lazy"></p>
-<p>重头戏：果木泥烤叫花鸡！（三敲叫花鸡讨个好彩头！说到叫花鸡就会想到金庸的射雕，因此期望也会高一些些。鸡肉的肉质很嫩很烂，鲜味和汁水被荷叶、泥巴锁得死死的。第一口还是挺惊艳的，但多吃了几口后不得不说，腻啊！如果是尝鲜的话也无可厚非了，最后还是被解决完了。）<br>
-<img src="https://Just7chambray.github.io/post-images/1588847715168.jpeg" alt="" loading="lazy"></p>
-<h2 id="第三站apple西湖">第三站：Apple（西湖）🍎</h2>
-<p>比起江南风景，还是数码产品更加吸引我。近期入手了新款iPad pro，并且在陶老板几个月的文化输出中，对苹果产品的了解和理解略有提升。iPhoneSE 2的手感简直了，比11都要更胜一筹。再加上感人的尺寸，对手小的女生简直不要太友好。圆点触感的震动反馈也深得我心，要不是单卡无法满足我的需求，可能现在眼前的就不是iPad pro而是可爱的SE了。既然入手了iPad，必然要去体验Magic keyboard2，iPad机身和键盘的磁吸感很强，而且可以帮助纠正位置（完了，我记不起来它的优秀之处了……）因为式磁吸的，所以对iPad四周没有保护；而且要考虑到稳定性，在一定程度上牺牲了便携性，同时也无法做到单手开合，甚至合上之后打开也有点困难（不过也有可能是我的问题）；触控板因为尺寸原因显得十分委屈；最后一点，就是贵！除了这些也没其他什么毛病吧！<br>
-不再一一细说其他产品了，我们应该是体验了所有的产品，每一个都细说下去恐怕今晚码不完了。<br>
-<img src="https://Just7chambray.github.io/post-images/1588847729765.jpeg" alt="" loading="lazy"></p>
-<h2 id="第四站一加-oneplus-1">第四站：一加 OnePlus ①➕</h2>
-<p>一个“资深”苹果用户和一个新入坑苹果用户，一个曾经的一加手机用户和一个现在仍是的一加手机用户，从Apple店到OnePlus形象服务店，不禁感叹资本的实力差异是多么巨大！一加的这家形象服务店在武林广场的负一楼，人流量少的可怜，不过小众品牌有自家门店就已经很难得了，不能要求太多。值得一提的是，一加的售后服务真的真的很好！！大家快去买一加！！<br>
-<img src="https://Just7chambray.github.io/post-images/1588847749217.jpeg" alt="" loading="lazy"></p>
-<hr>
-<h1 id="day3">Day3🛶</h1>
-<p><img src="https://Just7chambray.github.io/post-images/1588847786060.png" alt="" loading="lazy"><br>
-想着到了杭州不游西湖像是白走了一遭，从湖滨银泰这边绕着湖边散步，吹着风，拍拍照，还是十分惬意的。等到饭点了又去打卡杭帮菜——“绿茶”。</p>
-<p>这家餐厅的环境很好，颇具江南水乡的风格，小桥、流水、四方桌、船坞、油纸伞……连餐厅工作人员的服饰也颇具江南特色。<br>
-<img src="https://Just7chambray.github.io/post-images/1588847829599.jpeg" alt="" loading="lazy"><br>
-<img src="https://Just7chambray.github.io/post-images/1588847840017.jpeg" alt="" loading="lazy"><br>
-<img src="https://Just7chambray.github.io/post-images/1588847854585.jpeg" alt="" loading="lazy"><br>
-菜品与菜色也是浙菜的风格，杭三鲜甚至吃出了台州本地菜的味道，🦐也不错，夸一夸👍（好吧，写了一下午我已经才思枯竭了😢，就这样吧）<br>
-<img src="https://Just7chambray.github.io/post-images/1588847863993.jpeg" alt="" loading="lazy"></p>
-<p>不知道会不会有朋友看到最后，给看到最后的朋友们送上惊喜彩蛋,并郑重感谢陶老板的款待！！！<br>
-<img src="https://Just7chambray.github.io/post-images/1588848281619.jpeg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
