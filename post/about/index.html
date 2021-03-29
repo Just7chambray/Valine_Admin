@@ -7,6 +7,7 @@
 
 <link rel="canonical" href="https://Just7chambray.github.io/post/about/" />
 </head>
+
 <body>
 <div class="progress"></div><style>.progress{background:linear-gradient(to right,#87ceeb var(--scroll),transparent 0);background-repeat:no-repeat;position:fixed;width:100%;height:4px;z-index:1}</style><div class="darkmode-background"></div><div class="darkmode-layer"></div>
 <noscript><p class="warn" >本页面需要浏览器支持（启用）JavaScript</p></noscript><div class="header"><div class="logo_title"><div class="title animated fadeInDown"><a href="https://Just7chambray.github.io"><img alt="logo" style="display:inline-block;" src="https://Just7chambray.github.io/images/avatar.png"/></a><h1 title="吴言吴语" class="weaklink"><a  href="/">吴言吴语</a></h1>
@@ -17,7 +18,7 @@
 <div style="float:right;margin-top:1em"><form id="gridea-search-form" data-update="1578893743252" action="/search/index.html"><input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="Search..."></form></div><div style="margin-left:0.5em;margin-top:1.2em"><input id="switch_default" onclick="mobileBtn()" type="checkbox" class="switch_default"><label for="switch_default" class="toggleBtn"></label></div></div>
 <div class="clear clear_nav_inline_end"></div></div></div><div class="clear clear_nav_end"></div></div></div><div class="hamberger" href="javascript:void(0)" onclick="btn_toggle();"><i class="iconfont icon-category"></i></div></div></div></div>
 <div id="hn" class="no-js hidden_nav animated fadeInDown"><div class="bitcron_nav_container"><div class="bitcron_nav"><nav class="mixed_site_nav_wrap site_nav_wrap"><ul class="mixed_site_nav site_nav sm sm-base">	<li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/" class="selected active current nav__item" >首页</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/archives" class="selected active current nav__item" >归档</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/tags" class="selected active current nav__item" >标签</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="https://Just7chambray.github.io/post/gallery" class="selected active current nav__item" >图廊</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="http://Just7chambray.github.io/post/about" class="selected active current nav__item" >关于</a></li></ul><div class="clear clear_nav_inline_end"></div></nav></div><div class="clear clear_nav_end"></div></div>
-<div style="display:flex;justify-content:center;inline-block;text-align:center;margin-top:7%"><div><form id="gridea-search-form" data-update="1616943172017" action="/search/index.html"><input class="search-input" autocomplete="off" spellcheck="false" name="q"  placeholder="Search..." /></form></div><div style="margin-left:0.5em"><input id="switch_default_h" onclick="mobileBtn()" type="checkbox" class="switch_default"><label for="switch_default" class="toggleBtn"></label></div></div>
+<div style="display:flex;justify-content:center;inline-block;text-align:center;margin-top:7%"><div><form id="gridea-search-form" data-update="1617002269307" action="/search/index.html"><input class="search-input" autocomplete="off" spellcheck="false" name="q"  placeholder="Search..." /></form></div><div style="margin-left:0.5em"><input id="switch_default_h" onclick="mobileBtn()" type="checkbox" class="switch_default"><label for="switch_default" class="toggleBtn"></label></div></div>
 </div></div>
 <script>function enableDarkmode(){document.body.classList.add("darkmode"),document.getElementById("switch_default").checked=1,document.getElementById("switch_default_h").checked=1}function removeDarkmode(){document.body.classList.remove("darkmode"),document.getElementById("switch_default").checked=0,document.getElementById("switch_default_h").checked=0}function getCookie(a){var b,c=new RegExp("(^| )"+a+"=([^;]*)(;|$)");return(b=document.cookie.match(c))?unescape(b[2]):null}cookie=getCookie("darkmode"),"enable"==cookie&&enableDarkmode(),window.matchMedia("(prefers-color-scheme: dark)").matches&&"disable"!==cookie&&(enableDarkmode(),document.cookie="darkmode=enable; path=/");var mobileBtn=function(){1==document.getElementById("switch_default").checked?(enableDarkmode(),document.cookie="darkmode=enable; path=/"):(removeDarkmode(),document.cookie="darkmode=disable; path=/")};</script>
 
@@ -69,5 +70,28 @@ console.log("\n %c \u26a1Theme: Bitcron-pro Author's Blog:https://blog.blinkstar
 </script>
 <script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module" defer></script>
 <script type="text/javascript" async src="https://Just7chambray.github.io/media/js/prism.js"></script>
+
+<!-- https://github.com/panjunwen/Valine/releases/ -->
+
+<div id="comment"></div>
+<span id="comment-count"></span>
+<script>
+    comment_el = '#comment';
+    comment_count_el = 'span.comment-count';
+    new Valine({
+        el: comment_el,				// 评论区元素（要求div）
+        count_el: comment_count_el,    // 评论计数元素（要求span）
+        lang: 'zh-cn',							   // 语言（zh-cn或en）
+        // emoticon_url: 'https://cloud.panjunwen.com/alu', // 表情包根目录（自行解决文件托管）
+        // emoticon_list: ["吐.png", "狂汗.png", "不说话.png"], // 表情包文件列表
+        app_id: '9jxs7DFUKyHw6619OPXUt30f-gzGzoHsz',			    										   	
+        app_key: '6MeNR50UG8AfLoDVoQtab6iT',    										      
+        placeholder: 'Write a comment',  // 提示符
+        admin_email_hash: 'f32fc1c3f6674bfb5621a60901b5f96c', // 可选，管理员邮箱md5，用于显示管理员标志👮‍
+        max_nest: 3,					// 嵌套评论深度，太大会影响加载速度
+        page_size: 5					// 分页大小
+    });
+</script>
+
 </body>
 </html>
