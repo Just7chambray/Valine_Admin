@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="shortcut icon" href="https://Just7chambray.github.io/favicon.ico" type="image/x-icon" /><meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/><meta name="apple-mobile-web-app-capable"content="yes"/><meta name="apple-mobile-web-app-status-bar-style"content="black"/><meta name="format-detection"content="telephone=no"/><meta name="renderer"content="webkit"><meta name="description"content="栖迟於一丘，则天下不易其乐。"><meta charset="UTF-8"><title>关于应试教育下家长与学生思维模式的思考 | 吴言吴语</title>
+<link rel="shortcut icon" href="https://Just7chambray.github.io/favicon.ico" type="image/x-icon" /><meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/><meta name="apple-mobile-web-app-capable"content="yes"/><meta name="apple-mobile-web-app-status-bar-style"content="black"/><meta name="format-detection"content="telephone=no"/><meta name="renderer"content="webkit"><meta name="description"content="栖迟於一丘，则天下不易其乐。"><meta charset="UTF-8"><title>混淆矩阵小指南 | 吴言吴语</title>
 <link href="https://Just7chambray.github.io/styles/main.css" type="text/css" rel="stylesheet" /><link href="https://at.alicdn.com/t/font_1621793_zatzzgvf30g.css" type="text/css" rel="stylesheet" /><link rel="stylesheet" href="https://Just7chambray.github.io/media/css/katex.css"><script async src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.min.js"></script><script src="https://Just7chambray.github.io/media/js/magnify.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
 <script type="text/javascript">function btn_toggle(){document.getElementById("hn").classList.contains("no-js")?document.getElementById("hn").classList.remove("no-js"):document.getElementById("hn").classList.add("no-js")}</script>
 
-<link rel="canonical" href="https://Just7chambray.github.io/post/20201223/" />
+<link rel="canonical" href="https://Just7chambray.github.io/post/simple_guide2confusion_matrix/" />
 </head>
 
 <body>
@@ -24,28 +24,93 @@
 
 <div class="main"><div class="main-inner"><div class="content">
 <article class="post">
-<h2 class="post_title sm_margin"><a>关于应试教育下家长与学生思维模式的思考</a></h2>
+<h2 class="post_title sm_margin"><a>混淆矩阵小指南</a></h2>
 <script>function lan(){if(document.getElementById("lan").innerText=="繁"){var s=document.getElementById("tongwenlet_cn");if(s!=null){document.body.removeChild(s)}var s=document.createElement("script");s.language="javascript";s.type="text/javascript";s.src="https://cdn.jsdelivr.net/gh/qyxtim/Static@1.1/bookmarklet_tw.js";s.id="tongwenlet_cn";document.body.appendChild(s);document.getElementById("lan").innerHTML="简"}else{if(document.getElementById("lan").innerText=="簡"){var s=document.getElementById("tongwenlet_cn");if(s!=null){document.body.removeChild(s)}var s=document.createElement("script");s.language="javascript";s.type="text/javascript";s.src="https://cdn.jsdelivr.net/gh/qyxtim/Static@1.1/bookmarklet_cn.js";s.id="tongwenlet_cn";document.body.appendChild(s);document.getElementById("lan").innerHTML="繁"}}};</script>
-<section class="post_details"><i class="iconfont icon-calendar"></i><span style="margin-right:15px"> 2020-12-23</span><i class="iconfont icon-browse"></i><span style="margin-right:15px"> <span id="busuanzi_value_page_pv"></span> Views</span><i class="iconfont icon-category"></i><span class="weaklink" style="margin-right:15px">	<a href="https://Just7chambray.github.io/tag/BPnhyZ4d6/" class="tag">随笔</a> | 	<a href="https://Just7chambray.github.io/tag/WuIcMhG1C/" class="tag">生活</a></span><i class="iconfont icon-caret-down"></i><span style="margin-right:15px">888字</span><i class="iconfont icon-naozhong"></i><span style="margin-right:15px">3 min read</span><a id="lan" href="javascript:void(0);"onclick="lan();"title="调整简繁体" style="margin-right:15px;">繁</a>
+<section class="post_details"><i class="iconfont icon-calendar"></i><span style="margin-right:15px"> 2021-04-07</span><i class="iconfont icon-browse"></i><span style="margin-right:15px"> <span id="busuanzi_value_page_pv"></span> Views</span><i class="iconfont icon-category"></i><span class="weaklink" style="margin-right:15px"></span><i class="iconfont icon-caret-down"></i><span style="margin-right:15px">535字</span><i class="iconfont icon-naozhong"></i><span style="margin-right:15px">2 min read</span><a id="lan" href="javascript:void(0);"onclick="lan();"title="调整简繁体" style="margin-right:15px;">繁</a>
 </section>
 
-<img class="featureImg" alt="featureimg" src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=700&amp;q=80" referrerpolicy="no-referrer">
+<img class="featureImg" alt="featureimg" src="https://Just7chambray.github.io/post-images/simple_guide2confusion_matrix.png" referrerpolicy="no-referrer">
 
 <div style="display:flex">
 <div class="md_block" id="md_block">
 <div class="round-shape-one"></div>
-<p>宿舍一室友也成功保研，再加上之前关系就挺不错，因此我俩就走得比较近，就一直一起玩一起学习。<br>
-如题的思考主要来源于这位室友的妈妈的言语：近阶段我俩确实相较之前松散了些，也正是难得的空闲时光，没有课业压力、保研也尘埃落定，便利用这为数不多的时间去外面旅游了一趟，回厦之后还去了鼓浪屿耍了半天，随后就是白天图书馆、晚上待宿舍的平凡日子（晚上偶尔会在宿舍学习）。但是这一切在室友母亲看来我俩保上研后过于恣意，因此室友母亲就开始督促其学习。而室友也是个非常听话的乖宝宝，一通电话结束后就鸽了我原来的团建邀约（尽管后来又因为其他原因又赴约了🙃）。这不禁让我想到曾经年少的时候，父母察觉到最近你的玩心有点重，便苦口婆心地劝你收收心，好好学习，看看别人家的孩子都在用功学习。然后听话的你并没有左耳进右耳出，第二天立马乖乖学习。</p>
-<p>从小到大，如果没有被问过也会听过这样一句话：你到底是为了谁而学习啊？小时候的我们不知道自己的答案是什么，只知道正确答案不是别人，而是自己。而那时的我们凭借那时的认知却无法理解这背后的深意。而作为一名大学生如果尚未刷新对这个问题的认知，未免有些不该了。父母觉得你最近没有学习，然后一说你就去学习；看到室友们纷纷去图书馆学习，然后一看你也跟看去学习……是为父母而学吗？是为室友而学吗？……似乎前行的路上不断地有其他声音和力量来push你前进，但，好像很少是来自内心的声音与力量。<br>
-于是在大学又会产生这样一种错觉——好像在图书馆待得时间越长，不论自己的学习效率高低与否，也越能抚平心中对那段不学习时光的愧疚。很奇怪，不是吗？</p>
-<p>不过我也曾陷入这种奇怪的认知当中：从大一到大四，好像除了上课时间、睡觉时间我待过最久的就是图书馆了，尤其到了期末考试周期间，必早早起来去图书馆占座，而且一待就是一整天，回到宿舍看到室友们还在学习，原本消失的愧疚感又冒了出来……好像只是单纯地为了学习而学习。<br>
-现在的我厌倦了整天泡在图书馆而失去我的的感觉，以前觉得得自己一天在图书馆学十几个小时可真不错，成就感满满，而现在我只觉得在图书馆高效完成当天任务，再利用剩下的时间做自己想做的事情提升自我。<br>
-随着“内卷“这个词在大众视野中出现得愈发频繁，似乎更多的学生在大一大二就开始准备保研，竞争也愈发激烈。“为谁而学“这个问题，我们真的要好好问问自己，内心有答案吗，内心的答案是什么呢？</p>
+<p>简单记录一下混淆矩阵、准确率、精确率、召回率、F1值的相关概念</p>
+<!-- more -->
+<h2 id="混淆矩阵">混淆矩阵</h2>
+<p>混淆矩阵通常是用来描述分类器在一组测试数据上的性能的一个表格（这些测试数据的真实值是已知的）。大概形式如下：</p>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <td colspan="2">分类结果</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">真实类别</th>
+      <td>正例</td>
+      <td>反例</td>
+    </tr>
+    <tr>
+      <th scope="row">正例</th>
+      <td>TP（真正例）</td>
+      <td>FN（假反例）</td>
+    </tr>
+    <tr>
+      <th scope="row">反例</th>
+      <td>FP（假正例）</td>
+      <td>TN（真反例）</td>
+    </tr>
+  </tbody>
+</table>
+<p>其中的相关术语经常让人感到困惑（嗯，主要是我自己），因此特意记录一下。</p>
+<h3 id="相关术语">相关术语</h3>
+<ol>
+<li>真正例（TP，true positive），即分类器预测为<strong>正例</strong>且真实情况也为<strong>正例</strong>的样本</li>
+<li>假正例（FP，false positive），即分类器预测为<strong>正例</strong>但真实情况为<strong>负例</strong>的样本</li>
+<li>真反例（TN，true negative），即分类器预测为<strong>反例</strong>且真实情况也为<strong>反例</strong>的样本</li>
+<li>假反例（FN，false negative），即分类器预测为<strong>反例</strong>但真实情况为<strong>正例</strong>的样本<br>
+简单找规律呢就是第一个真假代表预测的评判，即分类器是否正确预测；第二个正与反代表分类器预测的样本分类情况。</li>
+</ol>
+<h2 id="评价指标">评价指标</h2>
+<p>在sklearn中，常见的评价指标有准确率(Accuracy)、精确率(Precision)、召回率(Recall)、F1值(F1_score) 。</p>
+<h3 id="准确率-accuracy">准确率 Accuracy</h3>
+<p>准确率定义为正确分类的样本数占样本总数的百分比。<br>
+准确率是最直观的性能衡量标准，它是正确预测的观测值与总观测值的比率。<br>
+Accuracy = \frac{TP+TN}{TP+FP+FN+TN}</p>
+<h3 id="精确率-precision">精确率 Precision</h3>
+<p>精确率是针对分类器的预测结果而言的，定义为正确预测的正例样本与预测为正例的样本数的比率。<br>
+Precision = \frac{TP}{TP+FP}</p>
+<h3 id="召回率-recall">召回率 Recall</h3>
+<p>召回率则是针对数据样本而言，定义为正确预测的正例样本与样本中所有的正例的比率。<br>
+Recall = \frac{TP}{TP+FN}</p>
+<h3 id="f1_score">F1_score</h3>
+<p>F1值是基于召回率和精确率计算的，它是精确率与召回率的加权平均值。<br>
+F1_score = 2\ast \frac{Precision×Recall}{Precision+Recall}</p>
 
 <span id="footnote"></span>
 <div id = "warn"></div>
 </div>
-<div class="toc-container"></div>
+<div class="toc-container"><ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5">混淆矩阵</a>
+<ul>
+<li><a href="#%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD">相关术语</a></li>
+</ul>
+</li>
+<li><a href="#%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87">评价指标</a>
+<ul>
+<li><a href="#%E5%87%86%E7%A1%AE%E7%8E%87-accuracy">准确率 Accuracy</a></li>
+<li><a href="#%E7%B2%BE%E7%A1%AE%E7%8E%87-precision">精确率 Precision</a></li>
+<li><a href="#%E5%8F%AC%E5%9B%9E%E7%8E%87-recall">召回率 Recall</a></li>
+<li><a href="#f1_score">F1_score</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
 </div>
 <div id="fullPage"><canvas id="canvas"></canvas></div>
 </article>
@@ -62,7 +127,7 @@ if(section.offsetTop<=fromTop){if(nextSection){if(nextSection.offsetTop>fromTop)
 var list=document.querySelectorAll(".katex");for(var i=0;i<list.length;i++){list[i].style.display="unset"};
 var h=document.documentElement,b=document.body,st="scrollTop",sh="scrollHeight",progress=document.querySelector(".progress"),scroll;document.addEventListener("scroll",function(){scroll=(h[st]||b[st])/((h[sh]||b[sh])-h.clientHeight)*100;progress.style.setProperty("--scroll",scroll+"%")});
 var wxScale=new WxScale({fullPage:document.querySelector("#fullPage"),canvas:document.querySelector("#canvas")});var imgBox=document.querySelectorAll("#md_block img");for(var i=0;i<imgBox.length;i++){imgBox[i].onclick=function(e){wxScale.start(this)}};
-content="本文最后更新于2020-12-23，已超过 1 年没有更新，涉及的内容可能已经失效！";var date1="2020-12-23 10:59:10";date1=date1.replace("-","/");var date2=new Date();var date3=date2.getTime()-new Date(date1).getTime();var days=Math.floor(date3/(24*3600*1000));if(days>=365){document.getElementById("warn").innerHTML=content};
+content="本文最后更新于2021-04-07，已超过 1 年没有更新，涉及的内容可能已经失效！";var date1="2021-04-07 18:22:09";date1=date1.replace("-","/");var date2=new Date();var date3=date2.getTime()-new Date(date1).getTime();var days=Math.floor(date3/(24*3600*1000));if(days>=365){document.getElementById("warn").innerHTML=content};
 </script>
 <style>#magnifyImg{position:fixed;left:0;top:0;text-align:center;width:100%;display:none;z-index:9999}#magnifyImg img{object-fit:contain;background:#eaecef;padding:15px;border-radius:10px;height:auto;width:auto;vertical-align:middle}</style>
 <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"></a><div class="footer animated fadeInDown"><div class="site_footer"><div class="mysocials"><div class="my_socials"></div></div><div class="copyright"id="copyright">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>Copyright © 2018-2020 <a href="https://Just7chambray.github.io" style="margin:0;">吴言吴语</a>.</div>
