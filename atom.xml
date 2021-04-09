@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>吴言吴语</title>
-    <updated>2021-04-09T06:35:59.275Z</updated>
+    <updated>2021-04-09T13:36:52.551Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://Just7chambray.github.io/images/avatar.png</logo>
     <icon>https://Just7chambray.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 吴言吴语</rights>
+    <entry>
+        <title type="html"><![CDATA[今时逢春悲寂寥]]></title>
+        <id>https://Just7chambray.github.io/post/20210409/</id>
+        <link href="https://Just7chambray.github.io/post/20210409/">
+        </link>
+        <updated>2021-04-09T12:00:41.000Z</updated>
+        <summary type="html"><![CDATA[<p>我猛然想起，我似乎快要忘记离别的滋味与感受……</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>我猛然想起，我似乎快要忘记离别的滋味与感受……</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[混淆矩阵小指南]]></title>
         <id>https://Just7chambray.github.io/post/simple_guide2confusion_matrix/</id>
@@ -108,12 +119,5 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>名词解释、简答题、计算题</p>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PAT(Advanced)查找元素]]></title>
-        <id>https://Just7chambray.github.io/post/pat_adv_lookingfor/</id>
-        <link href="https://Just7chambray.github.io/post/pat_adv_lookingfor/">
-        </link>
-        <updated>2020-05-26T14:53:45.000Z</updated>
     </entry>
 </feed>
