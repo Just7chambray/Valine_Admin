@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>吴言吴语</title>
-    <updated>2021-05-06T15:20:08.663Z</updated>
+    <updated>2021-05-06T15:23:24.601Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -27,6 +27,8 @@
         <link href="https://Just7chambray.github.io/post/202104/">
         </link>
         <updated>2021-05-02T01:39:46.000Z</updated>
+        <summary type="html"><![CDATA[<iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/%E6%80%9D%E5%BF%B5%E6%98%AF%E4%B8%80%E7%A7%8D%E7%97%85/661608562?i=661608563"></iframe>]]></summary>
+        <content type="html"><![CDATA[<iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/%E6%80%9D%E5%BF%B5%E6%98%AF%E4%B8%80%E7%A7%8D%E7%97%85/661608562?i=661608563"></iframe>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[New to LaTex based on Overleaf]]></title>
