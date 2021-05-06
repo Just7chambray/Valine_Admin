@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>吴言吴语</title>
-    <updated>2021-05-06T15:02:08.765Z</updated>
+    <updated>2021-05-06T15:20:08.663Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://Just7chambray.github.io/images/avatar.png</logo>
     <icon>https://Just7chambray.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 吴言吴语</rights>
+    <entry>
+        <title type="html"><![CDATA[22岁的勇气，弥足珍贵]]></title>
+        <id>https://Just7chambray.github.io/post/22birth/</id>
+        <link href="https://Just7chambray.github.io/post/22birth/">
+        </link>
+        <updated>2021-05-06T07:05:54.000Z</updated>
+        <summary type="html"><![CDATA[<p>还记得4月底的时候跟暄暄说生日想和喜欢的人一起度过，然而真正到了这一天，曾经的话就像是一句玩笑。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>还记得4月底的时候跟暄暄说生日想和喜欢的人一起度过，然而真正到了这一天，曾经的话就像是一句玩笑。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[四月，被推着前进]]></title>
         <id>https://Just7chambray.github.io/post/202104/</id>
@@ -99,17 +110,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>done!!!<br>
 实训结束，普天同庆！</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2020-09-25随笔]]></title>
-        <id>https://Just7chambray.github.io/post/20200925/</id>
-        <link href="https://Just7chambray.github.io/post/20200925/">
-        </link>
-        <updated>2020-09-26T01:14:20.000Z</updated>
-        <summary type="html"><![CDATA[<p>不知道起什么名字，因为没有主题，写得也比较乱，主要是以记录为主嘛，记录一下疫情在家这段期间的特殊感受，就凑合看看吧!😁😁</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>不知道起什么名字，因为没有主题，写得也比较乱，主要是以记录为主嘛，记录一下疫情在家这段期间的特殊感受，就凑合看看吧!😁😁</p>
 ]]></content>
     </entry>
 </feed>
