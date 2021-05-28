@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>吴言吴语</title>
-    <updated>2021-05-06T23:40:11.032Z</updated>
+    <updated>2021-05-28T08:41:23.100Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -10,26 +10,6 @@
     <logo>https://Just7chambray.github.io/images/avatar.png</logo>
     <icon>https://Just7chambray.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 吴言吴语</rights>
-    <entry>
-        <title type="html"><![CDATA[22岁的勇气，弥足珍贵]]></title>
-        <id>https://Just7chambray.github.io/post/22birth/</id>
-        <link href="https://Just7chambray.github.io/post/22birth/">
-        </link>
-        <updated>2021-05-06T07:05:54.000Z</updated>
-        <summary type="html"><![CDATA[<p>还记得4月底的时候跟暄暄说生日想和喜欢的人一起度过，然而真正到了这一天，曾经的话就像是一句玩笑。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>还记得4月底的时候跟暄暄说生日想和喜欢的人一起度过，然而真正到了这一天，曾经的话就像是一句玩笑。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[四月，被推着前进]]></title>
-        <id>https://Just7chambray.github.io/post/202104/</id>
-        <link href="https://Just7chambray.github.io/post/202104/">
-        </link>
-        <updated>2021-05-02T01:39:46.000Z</updated>
-        <summary type="html"><![CDATA[<iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/%E6%80%9D%E5%BF%B5%E6%98%AF%E4%B8%80%E7%A7%8D%E7%97%85/661608562?i=661608563"></iframe>]]></summary>
-        <content type="html"><![CDATA[<iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/%E6%80%9D%E5%BF%B5%E6%98%AF%E4%B8%80%E7%A7%8D%E7%97%85/661608562?i=661608563"></iframe>]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[New to LaTex based on Overleaf]]></title>
         <id>https://Just7chambray.github.io/post/new2LaTex_based_on_Overleaf/</id>
@@ -112,6 +92,28 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>done!!!<br>
 实训结束，普天同庆！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2020-09-25随笔]]></title>
+        <id>https://Just7chambray.github.io/post/20200925/</id>
+        <link href="https://Just7chambray.github.io/post/20200925/">
+        </link>
+        <updated>2020-09-26T01:14:20.000Z</updated>
+        <summary type="html"><![CDATA[<p>不知道起什么名字，因为没有主题，写得也比较乱，主要是以记录为主嘛，记录一下疫情在家这段期间的特殊感受，就凑合看看吧!😁😁</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>不知道起什么名字，因为没有主题，写得也比较乱，主要是以记录为主嘛，记录一下疫情在家这段期间的特殊感受，就凑合看看吧!😁😁</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[实训日记0909]]></title>
+        <id>https://Just7chambray.github.io/post/20200909prodairy/</id>
+        <link href="https://Just7chambray.github.io/post/20200909prodairy/">
+        </link>
+        <updated>2020-09-09T13:14:17.000Z</updated>
+        <summary type="html"><![CDATA[<p>实训第三天</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>实训第三天</p>
 ]]></content>
     </entry>
 </feed>
