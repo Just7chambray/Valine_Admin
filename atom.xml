@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>吴言吴语</title>
-    <updated>2021-05-28T08:41:23.100Z</updated>
+    <updated>2021-05-29T14:44:10.054Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://Just7chambray.github.io/images/avatar.png</logo>
     <icon>https://Just7chambray.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 吴言吴语</rights>
+    <entry>
+        <title type="html"><![CDATA[今天的我已经不是昨天的我]]></title>
+        <id>https://Just7chambray.github.io/post/7egzxpv_O/</id>
+        <link href="https://Just7chambray.github.io/post/7egzxpv_O/">
+        </link>
+        <updated>2021-05-28T08:41:36.000Z</updated>
+        <summary type="html"><![CDATA[<p>播客剪辑引发的吐槽自我</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>播客剪辑引发的吐槽自我</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New to LaTex based on Overleaf]]></title>
         <id>https://Just7chambray.github.io/post/new2LaTex_based_on_Overleaf/</id>
@@ -103,17 +114,6 @@
         <summary type="html"><![CDATA[<p>不知道起什么名字，因为没有主题，写得也比较乱，主要是以记录为主嘛，记录一下疫情在家这段期间的特殊感受，就凑合看看吧!😁😁</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>不知道起什么名字，因为没有主题，写得也比较乱，主要是以记录为主嘛，记录一下疫情在家这段期间的特殊感受，就凑合看看吧!😁😁</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[实训日记0909]]></title>
-        <id>https://Just7chambray.github.io/post/20200909prodairy/</id>
-        <link href="https://Just7chambray.github.io/post/20200909prodairy/">
-        </link>
-        <updated>2020-09-09T13:14:17.000Z</updated>
-        <summary type="html"><![CDATA[<p>实训第三天</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>实训第三天</p>
 ]]></content>
     </entry>
 </feed>
