@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>吴言吴语</title>
-    <updated>2021-05-29T14:44:10.054Z</updated>
+    <updated>2021-05-30T01:42:43.277Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://Just7chambray.github.io/images/avatar.png</logo>
     <icon>https://Just7chambray.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 吴言吴语</rights>
+    <entry>
+        <title type="html"><![CDATA[今晚月色真美]]></title>
+        <id>https://Just7chambray.github.io/post/ily/</id>
+        <link href="https://Just7chambray.github.io/post/ily/">
+        </link>
+        <updated>2021-05-29T14:47:38.000Z</updated>
+        <summary type="html"><![CDATA[<iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/%E6%88%91%E8%AF%B4%E4%BB%8A%E6%99%9A%E6%9C%88%E5%85%89%E9%82%A3%E4%B9%88%E7%BE%8E-%E4%BD%A0%E8%AF%B4%E6%98%AF%E7%9A%84/1228149773?i=1228150138"></iframe>]]></summary>
+        <content type="html"><![CDATA[<iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/%E6%88%91%E8%AF%B4%E4%BB%8A%E6%99%9A%E6%9C%88%E5%85%89%E9%82%A3%E4%B9%88%E7%BE%8E-%E4%BD%A0%E8%AF%B4%E6%98%AF%E7%9A%84/1228149773?i=1228150138"></iframe>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[今天的我已经不是昨天的我]]></title>
         <id>https://Just7chambray.github.io/post/7egzxpv_O/</id>
@@ -103,17 +112,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>done!!!<br>
 实训结束，普天同庆！</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2020-09-25随笔]]></title>
-        <id>https://Just7chambray.github.io/post/20200925/</id>
-        <link href="https://Just7chambray.github.io/post/20200925/">
-        </link>
-        <updated>2020-09-26T01:14:20.000Z</updated>
-        <summary type="html"><![CDATA[<p>不知道起什么名字，因为没有主题，写得也比较乱，主要是以记录为主嘛，记录一下疫情在家这段期间的特殊感受，就凑合看看吧!😁😁</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>不知道起什么名字，因为没有主题，写得也比较乱，主要是以记录为主嘛，记录一下疫情在家这段期间的特殊感受，就凑合看看吧!😁😁</p>
 ]]></content>
     </entry>
 </feed>
