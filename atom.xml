@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Just7chambray.github.io</id>
     <title>吴言吴语</title>
-    <updated>2021-06-04T03:11:28.525Z</updated>
+    <updated>2021-06-04T03:19:51.866Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Just7chambray.github.io"/>
     <link rel="self" href="https://Just7chambray.github.io/atom.xml"/>
@@ -16,6 +16,12 @@
         <link href="https://Just7chambray.github.io/post/202105/">
         </link>
         <updated>2021-06-04T03:04:13.000Z</updated>
+        <summary type="html"><![CDATA[<iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/%E5%9B%A0%E4%B8%BA%E4%BD%A0-%E6%89%80%E4%BB%A5%E6%88%91/1546336918?i=1546336919"></iframe>
+<p>五月在地理上的划分，是家与学校。</p>
+]]></summary>
+        <content type="html"><![CDATA[<iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/%E5%9B%A0%E4%B8%BA%E4%BD%A0-%E6%89%80%E4%BB%A5%E6%88%91/1546336918?i=1546336919"></iframe>
+<p>五月在地理上的划分，是家与学校。</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[今晚月色真美]]></title>
