@@ -18,7 +18,7 @@
 <div style="float:right;margin-top:1em"><form id="gridea-search-form" data-update="1578893743252" action="/search/index.html"><input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="Search..."></form></div><div style="margin-left:0.5em;margin-top:1.2em"><input id="switch_default" onclick="mobileBtn()" type="checkbox" class="switch_default"><label for="switch_default" class="toggleBtn"></label></div></div>
 <div class="clear clear_nav_inline_end"></div></div></div><div class="clear clear_nav_end"></div></div></div><div class="hamberger" href="javascript:void(0)" onclick="btn_toggle();"><i class="iconfont icon-category"></i></div></div></div></div>
 <div id="hn" class="no-js hidden_nav animated fadeInDown"><div class="bitcron_nav_container"><div class="bitcron_nav"><nav class="mixed_site_nav_wrap site_nav_wrap"><ul class="mixed_site_nav site_nav sm sm-base">	<li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/" class="selected active current nav__item" >首页</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/archives" class="selected active current nav__item" >归档</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/tags" class="selected active current nav__item" >标签</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="https://Just7chambray.github.io/post/gallery" class="selected active current nav__item" >图廊</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="https://www.notion.so/Python-e4c8a37db48b4565b2a35b5db5216819" class="selected active current nav__item" >Python</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="http://Just7chambray.github.io/post/about" class="selected active current nav__item" >关于</a></li></ul><div class="clear clear_nav_inline_end"></div></nav></div><div class="clear clear_nav_end"></div></div>
-<div style="display:flex;justify-content:center;inline-block;text-align:center;margin-top:7%"><div><form id="gridea-search-form" data-update="1622810101853" action="/search/index.html"><input class="search-input" autocomplete="off" spellcheck="false" name="q"  placeholder="Search..." /></form></div><div style="margin-left:0.5em"><input id="switch_default_h" onclick="mobileBtn()" type="checkbox" class="switch_default"><label for="switch_default" class="toggleBtn"></label></div></div>
+<div style="display:flex;justify-content:center;inline-block;text-align:center;margin-top:7%"><div><form id="gridea-search-form" data-update="1623310247584" action="/search/index.html"><input class="search-input" autocomplete="off" spellcheck="false" name="q"  placeholder="Search..." /></form></div><div style="margin-left:0.5em"><input id="switch_default_h" onclick="mobileBtn()" type="checkbox" class="switch_default"><label for="switch_default" class="toggleBtn"></label></div></div>
 </div></div>
 <script>function enableDarkmode(){document.body.classList.add("darkmode"),document.getElementById("switch_default").checked=1,document.getElementById("switch_default_h").checked=1}function removeDarkmode(){document.body.classList.remove("darkmode"),document.getElementById("switch_default").checked=0,document.getElementById("switch_default_h").checked=0}function getCookie(a){var b,c=new RegExp("(^| )"+a+"=([^;]*)(;|$)");return(b=document.cookie.match(c))?unescape(b[2]):null}cookie=getCookie("darkmode"),"enable"==cookie&&enableDarkmode(),window.matchMedia("(prefers-color-scheme: dark)").matches&&"disable"!==cookie&&(enableDarkmode(),document.cookie="darkmode=enable; path=/");var mobileBtn=function(){1==document.getElementById("switch_default").checked?(enableDarkmode(),document.cookie="darkmode=enable; path=/"):(removeDarkmode(),document.cookie="darkmode=disable; path=/")};</script>
 
@@ -51,11 +51,38 @@
 </div>
 <div id="fullPage"><canvas id="canvas"></canvas></div>
 </article>
-<div id="eof"><span>EOF</span></div><div class="round-shape-one"></div>
-<section>
-<div class="doc_comments">
 
-</div></section>
+
+
+<div id="eof"><span>EOF</span></div><div class="round-shape-one"></div>
+<div id="comment"></div>
+    <script>
+        new Valine({
+            el: '.comment',
+		    lang: 'zh-cn',//设置评论语言
+	  		app_id: '9jxs7DFUKyHw6619OPXUt30f-gzGzoHsz',
+	  		app_key: '6MeNR50UG8AfLoDVoQtab6iT',
+	  		placeholder: '评论留言'
+        })
+    </script>
+
+<section>
+<!-- here are the comments!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- <div id="comment"></div>
+    <script>
+        new Valine({
+            el: '.comment',
+		    lang: 'zh-cn',//设置评论语言
+	  		app_id: '9jxs7DFUKyHw6619OPXUt30f-gzGzoHsz',
+	  		app_key: '6MeNR50UG8AfLoDVoQtab6iT',
+	  		placeholder: '评论留言'
+        })
+    </script> -->
+
+<!-- <div class="doc_comments">
+
+</div> -->
+</section>
 </div></div></div><script>
 "use strict";!function(){for(var n=document.getElementsByTagName("pre"),e=n.length,s=0;s<e;s++){n[s].innerHTML='<span class="line-number"></span>'+n[s].innerHTML+'<span class="cl"></span>';for(var a=n[s].innerHTML.split(/\n/).length,r=0;r<a-1;r++){n[s].getElementsByTagName("span")[0].innerHTML+="<span>"+(r+1)+"</span>"}}}();
 let mainNavLinks=document.querySelectorAll(".markdownIt-TOC a");window.addEventListener("scroll",event=>{let fromTop=window.scrollY;mainNavLinks.forEach((link,index)=>{let section=document.getElementById(decodeURI(link.hash).substring(1));let nextSection=null
@@ -75,28 +102,7 @@ console.log("\n %c \u26a1Theme: Bitcron-pro Author's Blog:https://blog.blinkstar
 <script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module" defer></script>
 <script type="text/javascript" async src="https://Just7chambray.github.io/media/js/prism.js"></script>
 
-<!-- https://github.com/panjunwen/Valine/releases/ -->
 
-<div id="comment"></div>
-<span id="comment-count"></span>
-<!--载入js，在</body>之前插入即可-->
-    <!--Leancloud 操作库:-->
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <!--Valine 的核心代码库-->
-    <script src="/media/scripts/Valine.min.js"></script>
-
-    <div class="comment"></div>
-	<script>
-	    new Valine({
-	        // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
-	        //av: AV, 
-	        el: '.comment',
-		    lang: 'zh-cn',//设置评论语言
-	  		app_id: '9jxs7DFUKyHw6619OPXUt30f-gzGzoHsz',
-	  		app_key: '6MeNR50UG8AfLoDVoQtab6iT',
-	  		placeholder: '评论留言'
-	    });
-	</script>    
 
 	<!-- <script>
 	    comment_el = '#comment';
@@ -117,4 +123,7 @@ console.log("\n %c \u26a1Theme: Bitcron-pro Author's Blog:https://blog.blinkstar
 	</script> -->
 
 </body>
+
+
+ 
 </html>
